@@ -31,14 +31,6 @@
                                     <outletCollection property="gestureRecognizers" destination="sZF-Do-9ue" appends="YES" id="WY4-nU-ghe"/>
                                 </connections>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uFp-Oy-5jX">
-                                <rect key="frame" x="-3" y="42" width="100" height="86"/>
-                                <animations/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lMm-PE-i11">
-                                <rect key="frame" x="-14" y="-98" width="60" height="47"/>
-                                <animations/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="68567" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g0q-lb-evC">
                                 <rect key="frame" x="25" y="40.5" width="97" height="38.5"/>
                                 <animations/>
@@ -68,20 +60,72 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9WW-oz-1N5">
+                                <rect key="frame" x="454" y="1" width="144" height="90"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="ATr-rE-PC3"/>
+                                    <constraint firstAttribute="width" constant="50" id="bSI-Ee-zvH"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="info"/>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" alignment="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="jdl-1g-9tb">
+                                <rect key="frame" x="9" y="0.0" width="150" height="26"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="lMm-PE-i11" userLabel="heart2">
+                                        <rect key="frame" x="0.0" y="0.0" width="30" height="26"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="uFp-Oy-5jX" userLabel="heart1">
+                                        <rect key="frame" x="30" y="0.0" width="30" height="26"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="ZPs-2g-lNU" userLabel="heart3">
+                                        <rect key="frame" x="60" y="0.0" width="30" height="26"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="1F6-FR-JD4" userLabel="heart4">
+                                        <rect key="frame" x="90" y="0.0" width="30" height="26"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="kA6-kF-2zD" userLabel="heart5">
+                                        <rect key="frame" x="120" y="0.0" width="30" height="26"/>
+                                        <animations/>
+                                    </imageView>
+                                </subviews>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="26" id="JKq-2x-eec"/>
+                                    <constraint firstAttribute="width" constant="180" id="gQX-IP-oLG"/>
+                                    <constraint firstAttribute="width" secondItem="jdl-1g-9tb" secondAttribute="height" multiplier="75:13" id="gpF-rx-IPh"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="JKq-2x-eec"/>
+                                        <exclude reference="gQX-IP-oLG"/>
+                                        <exclude reference="gpF-rx-IPh"/>
+                                    </mask>
+                                </variation>
+                            </stackView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="9WW-oz-1N5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="434" id="6Ug-6F-O92"/>
                             <constraint firstItem="uxQ-q7-YsP" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="6hk-Ne-w8a"/>
                             <constraint firstItem="t8v-cs-y4Z" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="13" id="AcQ-vf-Gh0"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="9WW-oz-1N5" secondAttribute="trailing" constant="18" id="C1w-qm-tzU"/>
                             <constraint firstItem="uxQ-q7-YsP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="E5j-3E-AJQ"/>
                             <constraint firstItem="g0q-lb-evC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="25" id="FfE-5g-2rz"/>
                             <constraint firstItem="Bjs-nk-P9G" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="P3N-1H-iiy"/>
                             <constraint firstAttribute="trailing" secondItem="Bjs-nk-P9G" secondAttribute="trailing" id="SAP-IJ-9ct"/>
                             <constraint firstItem="Bjs-nk-P9G" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="YCW-9u-hB7"/>
                             <constraint firstItem="Bjs-nk-P9G" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="YHw-Ns-nzd"/>
+                            <constraint firstItem="jdl-1g-9tb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="50" id="hKC-Jr-5vf"/>
                             <constraint firstItem="Bjs-nk-P9G" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="mco-gh-m7d"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Bjs-nk-P9G" secondAttribute="bottom" id="n06-Y3-ysn"/>
+                            <constraint firstItem="jdl-1g-9tb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="n2Z-xW-AyZ"/>
+                            <constraint firstItem="9WW-oz-1N5" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="ow3-PL-kKb"/>
                             <constraint firstItem="Bjs-nk-P9G" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="t8k-Ef-EKn"/>
                             <constraint firstItem="t8v-cs-y4Z" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="100" id="tQw-Ev-QaW"/>
                             <constraint firstItem="g0q-lb-evC" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="u3s-vC-N70"/>
@@ -92,6 +136,7 @@
                                 <exclude reference="SAP-IJ-9ct"/>
                                 <exclude reference="YHw-Ns-nzd"/>
                                 <exclude reference="t8k-Ef-EKn"/>
+                                <exclude reference="6Ug-6F-O92"/>
                                 <exclude reference="n06-Y3-ysn"/>
                             </mask>
                         </variation>
@@ -114,6 +159,8 @@
     </scenes>
     <resources>
         <image name="backgroundIsland" width="1024" height="768"/>
+        <image name="heart" width="30" height="26"/>
+        <image name="info" width="90" height="90"/>
         <image name="star" width="60" height="59"/>
     </resources>
 </document>
