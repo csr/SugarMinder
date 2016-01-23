@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Last Blood Sugar Reading</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <link rel="stylesheet" href="css/main.css" />
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-header pull-left">
+                <a class="navbar-brand" href="#">Last Blood Sugar Reading</a>
+            </div>
+            <div class="navbar-header pull-right">
+                <button id="signin" type="submit" class="btn btn-default navbar-btn hidden">Sign In</button>
+                <button id="signout" type="submit" class="btn btn-default navbar-btn hidden">Sign Out</button>
+            </div>
+        </nav>
+
+        <div class="jumbotron hidden" id="disconnected">
+            <h1>Disconnected</h1>
+            <p>Please Sign In to OneTouch Reveal to view your last blood sugar reading.</p>
+        </div>
+
+        <div class="jumbotron" id="loading">
+            <h1>Loading...</h1>
+            <p>Please wait while your information loads...</p>
+        </div>
+
+        <div class="jumbotron hidden" id="lastglucose">
+            <h1><span id="bgvalue"></span> <small id="uom"></small></h1>
+            <p id="bgtime"></p>
+        </div>
+
+        <div class="jumbotron hidden" id="noglucose">
+            <h1>---</h1>
+            <p>no blood sugar found in the last 90 days</p>
+        </div>
+
+        <footer class="footer">
+            <p class="text-muted pull-left"><a href="#" onclick="document.location='view-source:'+document.location;">View Source<a/></p>
+            <p class="text-muted pull-right">© LifeScan, Inc. 2015 </p>
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment-with-locales.min.js"></script>
+        <script src="./otr-info.js"></script>
+        <script src="js/swagger-client.js"></script>
+        <script src="js/main.js"> </script>
+
+    </body>
+</html>
