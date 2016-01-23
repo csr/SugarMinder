@@ -64,31 +64,31 @@
                                 <rect key="frame" x="454" y="1" width="144" height="90"/>
                                 <animations/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="ATr-rE-PC3"/>
-                                    <constraint firstAttribute="width" constant="50" id="bSI-Ee-zvH"/>
+                                    <constraint firstAttribute="height" constant="43" id="ATr-rE-PC3"/>
+                                    <constraint firstAttribute="width" constant="43" id="bSI-Ee-zvH"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="info"/>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" alignment="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="jdl-1g-9tb">
                                 <rect key="frame" x="9" y="0.0" width="150" height="26"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="lMm-PE-i11" userLabel="heart2">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="lMm-PE-i11" userLabel="heart2">
                                         <rect key="frame" x="0.0" y="0.0" width="30" height="26"/>
                                         <animations/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="uFp-Oy-5jX" userLabel="heart1">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="uFp-Oy-5jX" userLabel="heart1">
                                         <rect key="frame" x="30" y="0.0" width="30" height="26"/>
                                         <animations/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="ZPs-2g-lNU" userLabel="heart3">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="ZPs-2g-lNU" userLabel="heart3">
                                         <rect key="frame" x="60" y="0.0" width="30" height="26"/>
                                         <animations/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="1F6-FR-JD4" userLabel="heart4">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="1F6-FR-JD4" userLabel="heart4">
                                         <rect key="frame" x="90" y="0.0" width="30" height="26"/>
                                         <animations/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="kA6-kF-2zD" userLabel="heart5">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="kA6-kF-2zD" userLabel="heart5">
                                         <rect key="frame" x="120" y="0.0" width="30" height="26"/>
                                         <animations/>
                                     </imageView>
