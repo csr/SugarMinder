@@ -15,3 +15,23 @@ Buy fishes / fishes can move around
 Notifications
 
 Time to measure your blood sugar!
+
+
+----------------------------
+
+Aquarium - Feed Your Fish
+
+1. Add health bar, point system, levels (1 ~ 10 1000pts 11 ~ 20 10000, 20 ~ 30 50000)
+2. Add notifications (fish is hungry)
+3. Reading gives the food for fish
+4. The store will have skins, fishes, etc
+5. bubble for tips
+
+Every 10 levels, J & J will provide a prize (sample, coupon, etc)
+
+Without apple dev account, we couldn't add push notifications, game center (leaderboard, achievements)
+
+
+-----------------------------
+
+Need levels, food, skins, bubbles
