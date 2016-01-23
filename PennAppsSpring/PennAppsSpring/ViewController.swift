@@ -23,10 +23,6 @@ class ViewController: UIViewController {
         if let myCoins = userDefaults.valueForKey("coins") {
             coins = Int(myCoins as! NSNumber)
         }
-        else {
-            
-            // no highscore exists
-        }
         labelCoins.text = String(coins)
     }
 
@@ -35,9 +31,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func imageIsPressed(sender: AnyObject) {
-        if i == 0 {
-        backgroundImage.image = UIImage(named:"backgroundIsland")
-        } else if i == 1  {
+        if i == 1  {
             let fishes1 = UIImageView(frame: CGRect(x: 40, y: screenSize.height/2, width: 209, height: 108))
             fishes1.image = UIImage(named: "fishes1")
             self.view.addSubview(fishes1)

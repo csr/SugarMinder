@@ -18,8 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="backgroundImage" translatesAutoresizingMaskIntoConstraints="NO" id="Bjs-nk-P9G">
-                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="backgroundIsland" translatesAutoresizingMaskIntoConstraints="NO" id="Bjs-nk-P9G">
+                                <rect key="frame" x="-88" y="-7" width="799" height="600"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <gestureRecognizers/>
@@ -30,10 +30,18 @@
                                     <outletCollection property="gestureRecognizers" destination="sZF-Do-9ue" appends="YES" id="WY4-nU-ghe"/>
                                 </connections>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="68567" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g0q-lb-evC">
-                                <rect key="frame" x="20" y="40" width="91" height="36"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="t8v-cs-y4Z">
+                                <rect key="frame" x="139" y="33" width="50" height="50"/>
                                 <animations/>
-                                <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="5eL-8P-I00"/>
+                                    <constraint firstAttribute="width" constant="50" id="V1S-eo-ycy"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="68567" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g0q-lb-evC">
+                                <rect key="frame" x="25" y="40" width="97" height="38.5"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="33"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -41,7 +49,9 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="g0q-lb-evC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="FfE-5g-2rz"/>
+                            <constraint firstItem="t8v-cs-y4Z" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="13" id="FKq-JK-fKw"/>
+                            <constraint firstItem="g0q-lb-evC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="25" id="FfE-5g-2rz"/>
+                            <constraint firstItem="t8v-cs-y4Z" firstAttribute="leading" secondItem="g0q-lb-evC" secondAttribute="trailing" constant="17" id="Iwi-Ej-XuX"/>
                             <constraint firstItem="Bjs-nk-P9G" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="P3N-1H-iiy"/>
                             <constraint firstAttribute="trailing" secondItem="Bjs-nk-P9G" secondAttribute="trailing" id="SAP-IJ-9ct"/>
                             <constraint firstItem="Bjs-nk-P9G" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="YCW-9u-hB7"/>
@@ -77,6 +87,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="backgroundImage" width="341" height="256"/>
+        <image name="backgroundIsland" width="1024" height="768"/>
+        <image name="star" width="60" height="59"/>
     </resources>
 </document>
