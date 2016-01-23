@@ -43,31 +43,31 @@ class ViewController: UIViewController {
     }
     
     func animateWaterBubbles() {
-        let square = UIImageView()
-        square.image = UIImage(named: "bubble")
-        square.frame = CGRect(x: 55, y: 300, width: 20, height: 20)
-        square.backgroundColor = UIColor.redColor()
-        self.view.addSubview(square)
-        
-        // randomly create a value between 0.0 and 150.0
-        let randomYOffset = CGFloat( arc4random_uniform(150))
-        
-        // for every y-value on the bezier curve
-        // add our random y offset so that each individual animation
-        // will appear at a different y-position
-        let path = UIBezierPath()
-        path.moveToPoint(CGPoint(x: view.bounds.size.width/3 ,y: view.bounds.size.height - 100 + randomYOffset))
-        path.addCurveToPoint(CGPoint(x: view.bounds.size.width/3+50, y: view.bounds.size.height - 50 + randomYOffset), controlPoint1: CGPoint(x: 136, y: 373 + randomYOffset), controlPoint2: CGPoint(x: 178, y: 110 + randomYOffset))
-        
-        // create the animation
-        let anim = CAKeyframeAnimation(keyPath: "position")
-        anim.path = path.CGPath
-        anim.rotationMode = kCAAnimationRotateAuto
-        anim.repeatCount = Float.infinity
-        anim.duration = 5.0
-        
-        // add the animation
-        square.layer.addAnimation(anim, forKey: "animate position along path")
+        for _ in 0...3 {
+            let bubble1 = UIImageView()
+            bubble1.image = UIImage(named: "bubble")
+            let randomXOffset = CGFloat(arc4random_uniform(150))
+            print(randomXOffset)
+            bubble1.frame = CGRect(x: randomXOffset, y: 300, width: 10, height: 10)
+            self.view.addSubview(bubble1)
+            
+            // for every y-value on the bezier curve
+            // add our random y offset so that each individual animation
+            // will appear at a different y-position
+            
+            let path = UIBezierPath()
+            path.moveToPoint(CGPoint(x: view.bounds.size.width/3+randomXOffset, y: view.bounds.size.height - 100))
+            path.addCurveToPoint(CGPoint(x: view.bounds.size.width/3+50+randomXOffset, y: view.bounds.size.height - 39), controlPoint1: CGPoint(x: 136+randomXOffset, y: view.bounds.size.height - 100), controlPoint2: CGPoint(x: 136+randomXOffset, y: view.bounds.size.height - 150))
+            
+            // create the animation
+            let anim = CAKeyframeAnimation(keyPath: "position")
+            anim.path = path.CGPath
+            anim.rotationMode = kCAAnimationRotateAuto
+            anim.repeatCount = Float.infinity
+            anim.duration = 15.0
+            // add the animation
+            bubble1.layer.addAnimation(anim, forKey: "animate position along path")
+        }
     }
 }
 

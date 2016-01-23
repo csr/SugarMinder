@@ -18,18 +18,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="backgroundIsland" translatesAutoresizingMaskIntoConstraints="NO" id="Bjs-nk-P9G">
-                                <rect key="frame" x="-88" y="-7" width="799" height="600"/>
-                                <animations/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <gestureRecognizers/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="Bjs-nk-P9G" secondAttribute="height" multiplier="341:256" id="EVw-4h-VcQ"/>
-                                </constraints>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="sZF-Do-9ue" appends="YES" id="WY4-nU-ghe"/>
-                                </connections>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="t8v-cs-y4Z">
                                 <rect key="frame" x="139" y="33" width="50" height="50"/>
                                 <animations/>
@@ -45,6 +33,18 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="backgroundIsland" translatesAutoresizingMaskIntoConstraints="NO" id="Bjs-nk-P9G">
+                                <rect key="frame" x="-79" y="125" width="799" height="600"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.52941176470588236" green="0.7803921568627451" blue="0.74117647058823533" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Bjs-nk-P9G" secondAttribute="height" multiplier="341:256" id="EVw-4h-VcQ"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="sZF-Do-9ue" appends="YES" id="WY4-nU-ghe"/>
+                                </connections>
+                            </imageView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
