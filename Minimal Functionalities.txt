@@ -1,0 +1,17 @@
+Minimal Functionalities
+
+Goal: Log the blood sugar data. Give incentives to people for doing so.
+
+Log:
+1. Insulin
+2. Food intake
+3. Exercise
+
+When the user puts in data, he/she will get points in order to gain levels
+
+Incentives:
+Buy fishes / fishes can move around
+
+Notifications
+
+Time to measure your blood sugar!
