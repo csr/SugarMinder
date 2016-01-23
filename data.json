@@ -1,7 +1,5 @@
-{ "results": 
- [
-   {
-  "bloodGlucose": [
+
+odGlucose": [
     {
       "mealTag": null,
       "cgmCalibration": false,
@@ -2075,6 +2073,4 @@
     "bolusInsulinCount": 0,
     "bloodGlucoseCount": 89
   }
-}
-]
 }
