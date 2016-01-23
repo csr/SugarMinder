@@ -24,6 +24,7 @@ class ViewController: UIViewController {
         }
         labelCoins.text = String(coins)
         animateWaterBubbles()
+        animateFish()
     }
     
     override func didReceiveMemoryWarning() {
@@ -43,6 +44,22 @@ class ViewController: UIViewController {
     }
     
     func animateFish() {
+        let fish = UIImageView(image: UIImage(named: "fishInsulin"))
+        fish.frame = CGRect(x: view.bounds.width+50, y: view.bounds.height-100, width: 111, height: 113)
+        view.addSubview(fish)
+        
+        let path = UIBezierPath()
+        path.moveToPoint(CGPoint(x: view.bounds.width + 50, y: view.bounds.size.height - 100))
+        path.addCurveToPoint(CGPoint(x: -50, y: view.bounds.size.height-100), controlPoint1: CGPoint(x: view.bounds.width + 50, y: view.bounds.size.height - 100), controlPoint2: CGPoint(x: view.bounds.size.width/2, y: view.bounds.size.height - 50))
+        
+        // create the animation
+        let anim = CAKeyframeAnimation(keyPath: "position")
+        anim.path = path.CGPath
+        anim.rotationMode = kCAAnimationRotateAutoReverse
+        anim.repeatCount = Float.infinity
+        anim.duration = 30
+        // add the animation
+        fish.layer.addAnimation(anim, forKey: "animate position along path")
     }
     
     func animateWaterBubbles() {
