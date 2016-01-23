@@ -30,10 +30,18 @@
                                     <outletCollection property="gestureRecognizers" destination="sZF-Do-9ue" appends="YES" id="WY4-nU-ghe"/>
                                 </connections>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="68567" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g0q-lb-evC">
+                                <rect key="frame" x="20" y="40" width="91" height="36"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="31"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="g0q-lb-evC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="FfE-5g-2rz"/>
                             <constraint firstItem="Bjs-nk-P9G" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="P3N-1H-iiy"/>
                             <constraint firstAttribute="trailing" secondItem="Bjs-nk-P9G" secondAttribute="trailing" id="SAP-IJ-9ct"/>
                             <constraint firstItem="Bjs-nk-P9G" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="YCW-9u-hB7"/>
@@ -41,6 +49,7 @@
                             <constraint firstItem="Bjs-nk-P9G" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="mco-gh-m7d"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Bjs-nk-P9G" secondAttribute="bottom" id="n06-Y3-ysn"/>
                             <constraint firstItem="Bjs-nk-P9G" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="t8k-Ef-EKn"/>
+                            <constraint firstItem="g0q-lb-evC" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="u3s-vC-N70"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
@@ -54,6 +63,7 @@
                     </view>
                     <connections>
                         <outlet property="backgroundImage" destination="Bjs-nk-P9G" id="ymT-lI-suK"/>
+                        <outlet property="labelCoins" destination="g0q-lb-evC" id="ZbV-nI-Tpj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -63,6 +73,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
+            <point key="canvasLocation" x="194" y="265"/>
         </scene>
     </scenes>
     <resources>

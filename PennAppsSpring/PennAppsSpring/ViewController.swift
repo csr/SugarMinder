@@ -11,12 +11,23 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var backgroundImage: UIImageView!
+    @IBOutlet weak var labelCoins: UILabel!
     
     let screenSize: CGRect = UIScreen.mainScreen().bounds
     var i = 0
+    var coins = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let userDefaults = NSUserDefaults.standardUserDefaults()
+        if let myCoins = userDefaults.valueForKey("coins") {
+            coins = Int(myCoins as! NSNumber)
+        }
+        else {
+            
+            // no highscore exists
+        }
+        labelCoins.text = String(coins)
     }
 
     override func didReceiveMemoryWarning() {
@@ -32,6 +43,15 @@ class ViewController: UIViewController {
             self.view.addSubview(fishes1)
         }
         i++
+        coins += 10
+        labelCoins.text = String(coins)
+        let userDefaults = NSUserDefaults.standardUserDefaults()
+        userDefaults.setValue(coins, forKey: "coins")
+        userDefaults.synchronize()
+    }
+    
+    override func preferredStatusBarStyle() -> UIStatusBarStyle {
+        return UIStatusBarStyle.LightContent
     }
 }
 

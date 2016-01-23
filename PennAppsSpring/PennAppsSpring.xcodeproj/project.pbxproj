@@ -490,6 +490,7 @@
 				1D7984901C5322570030A027 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D7984911C5322570030A027 /* Build configuration list for PBXNativeTarget "PennAppsSpringTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +499,7 @@
 				1D7984931C5322570030A027 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D7984941C5322570030A027 /* Build configuration list for PBXNativeTarget "PennAppsSpringUITests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +508,7 @@
 				1D7984961C5322570030A027 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
