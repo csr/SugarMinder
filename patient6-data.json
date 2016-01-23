@@ -1,19 +1,19 @@
 {
   "bloodGlucose": [
     {
-      "mealTag": null,
+      "mealTag": "MEAL_TAG_PRE_MEAL",
       "cgmCalibration": false,
       "bgValue": {
-        "value": 290,
+        "value": 65,
         "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
-      "id": "29F4CACA3CB70D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254420,
-      "createdDate": 1453502254420,
+      "id": "29F4CACA39C00D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253791,
+      "createdDate": 1453502253791,
       "publishedDate": 1453502254533,
-      "readingDate": "2015-06-01T00:16:00",
+      "readingDate": "2016-01-01T07:23:00",
       "deviceType": "METERTYPES_ONETOUCHPING",
       "deviceSerialNumber": "50-19702-15",
       "edited": false,
@@ -25,751 +25,16 @@
       "mealTag": "MEAL_TAG_PRE_MEAL",
       "cgmCalibration": false,
       "bgValue": {
-        "value": 214,
+        "value": 115,
         "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
-      "id": "29F4CACA3CB60D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254419,
-      "createdDate": 1453502254419,
+      "id": "29F4CACA39BF0D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253790,
+      "createdDate": 1453502253790,
       "publishedDate": 1453502254533,
-      "readingDate": "2015-06-01T07:24:00",
-      "deviceType": "METERTYPES_ONETOUCHPING",
-      "deviceSerialNumber": "50-19702-15",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": []
-    },
-    {
-      "mealTag": "MEAL_TAG_PRE_MEAL",
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 315,
-        "units": "mg/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA3CB50D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254418,
-      "createdDate": 1453502254418,
-      "publishedDate": 1453502254533,
-      "readingDate": "2015-06-01T12:42:00",
-      "deviceType": "METERTYPES_ONETOUCHPING",
-      "deviceSerialNumber": "50-19702-15",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": []
-    },
-    {
-      "mealTag": "MEAL_TAG_PRE_MEAL",
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 312,
-        "units": "mg/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA3CB40D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254417,
-      "createdDate": 1453502254417,
-      "publishedDate": 1453502254533,
-      "readingDate": "2015-06-01T13:43:00",
-      "deviceType": "METERTYPES_ONETOUCHPING",
-      "deviceSerialNumber": "50-19702-15",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": []
-    },
-    {
-      "mealTag": "MEAL_TAG_PRE_MEAL",
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 83,
-        "units": "mg/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA3CB30D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254416,
-      "createdDate": 1453502254416,
-      "publishedDate": 1453502254533,
-      "readingDate": "2015-06-01T17:29:00",
-      "deviceType": "METERTYPES_ONETOUCHPING",
-      "deviceSerialNumber": "50-19702-15",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": []
-    },
-    {
-      "mealTag": "MEAL_TAG_POST_MEAL",
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 410,
-        "units": "mg/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA3CB20D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254416,
-      "createdDate": 1453502254416,
-      "publishedDate": 1453502254533,
-      "readingDate": "2015-06-01T21:46:00",
-      "deviceType": "METERTYPES_ONETOUCHPING",
-      "deviceSerialNumber": "50-19702-15",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": []
-    },
-    {
-      "mealTag": "MEAL_TAG_POST_MEAL",
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 394,
-        "units": "mg/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA3CB10D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254415,
-      "createdDate": 1453502254415,
-      "publishedDate": 1453502254533,
-      "readingDate": "2015-06-01T22:49:00",
-      "deviceType": "METERTYPES_ONETOUCHPING",
-      "deviceSerialNumber": "50-19702-15",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": []
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 377,
-        "units": "mg/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA3CB00D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254414,
-      "createdDate": 1453502254414,
-      "publishedDate": 1453502254533,
-      "readingDate": "2015-06-01T23:56:00",
-      "deviceType": "METERTYPES_ONETOUCHPING",
-      "deviceSerialNumber": "50-19702-15",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": []
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 295,
-        "units": "mg/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA3CAF0D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254413,
-      "createdDate": 1453502254413,
-      "publishedDate": 1453502254533,
-      "readingDate": "2015-06-02T01:45:00",
-      "deviceType": "METERTYPES_ONETOUCHPING",
-      "deviceSerialNumber": "50-19702-15",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": []
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 213,
-        "units": "mg/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA3CAE0D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254412,
-      "createdDate": 1453502254412,
-      "publishedDate": 1453502254533,
-      "readingDate": "2015-06-02T03:40:00",
-      "deviceType": "METERTYPES_ONETOUCHPING",
-      "deviceSerialNumber": "50-19702-15",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": []
-    },
-    {
-      "mealTag": "MEAL_TAG_PRE_MEAL",
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 146,
-        "units": "mg/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA3CAD0D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254412,
-      "createdDate": 1453502254412,
-      "publishedDate": 1453502254533,
-      "readingDate": "2015-06-02T07:08:00",
-      "deviceType": "METERTYPES_ONETOUCHPING",
-      "deviceSerialNumber": "50-19702-15",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": []
-    },
-    {
-      "mealTag": "MEAL_TAG_PRE_MEAL",
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 256,
-        "units": "mg/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA3CAC0D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254411,
-      "createdDate": 1453502254411,
-      "publishedDate": 1453502254533,
-      "readingDate": "2015-06-02T12:18:00",
-      "deviceType": "METERTYPES_ONETOUCHPING",
-      "deviceSerialNumber": "50-19702-15",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": []
-    },
-    {
-      "mealTag": "MEAL_TAG_PRE_MEAL",
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 195,
-        "units": "mg/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA3CAB0D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254410,
-      "createdDate": 1453502254410,
-      "publishedDate": 1453502254533,
-      "readingDate": "2015-06-02T13:47:00",
-      "deviceType": "METERTYPES_ONETOUCHPING",
-      "deviceSerialNumber": "50-19702-15",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": []
-    },
-    {
-      "mealTag": "MEAL_TAG_POST_MEAL",
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 252,
-        "units": "mg/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA3CAA0D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254409,
-      "createdDate": 1453502254409,
-      "publishedDate": 1453502254533,
-      "readingDate": "2015-06-02T15:28:00",
-      "deviceType": "METERTYPES_ONETOUCHPING",
-      "deviceSerialNumber": "50-19702-15",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": []
-    },
-    {
-      "mealTag": "MEAL_TAG_POST_MEAL",
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 261,
-        "units": "mg/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA3CA90D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254408,
-      "createdDate": 1453502254408,
-      "publishedDate": 1453502254533,
-      "readingDate": "2015-06-02T20:04:00",
-      "deviceType": "METERTYPES_ONETOUCHPING",
-      "deviceSerialNumber": "50-19702-15",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": []
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 154,
-        "units": "mg/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA3CA80D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254407,
-      "createdDate": 1453502254407,
-      "publishedDate": 1453502254533,
-      "readingDate": "2015-06-02T23:14:00",
-      "deviceType": "METERTYPES_ONETOUCHPING",
-      "deviceSerialNumber": "50-19702-15",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": []
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 87,
-        "units": "mg/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA3CA70D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254407,
-      "createdDate": 1453502254407,
-      "publishedDate": 1453502254533,
-      "readingDate": "2015-06-03T00:42:00",
-      "deviceType": "METERTYPES_ONETOUCHPING",
-      "deviceSerialNumber": "50-19702-15",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": []
-    },
-    {
-      "mealTag": "MEAL_TAG_PRE_MEAL",
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 102,
-        "units": "mg/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA3CA60D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254406,
-      "createdDate": 1453502254406,
-      "publishedDate": 1453502254533,
-      "readingDate": "2015-06-03T08:35:00",
-      "deviceType": "METERTYPES_ONETOUCHPING",
-      "deviceSerialNumber": "50-19702-15",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": []
-    },
-    {
-      "mealTag": "MEAL_TAG_PRE_MEAL",
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 100,
-        "units": "mg/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA3CA50D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254405,
-      "createdDate": 1453502254405,
-      "publishedDate": 1453502254533,
-      "readingDate": "2015-06-03T11:20:00",
-      "deviceType": "METERTYPES_ONETOUCHPING",
-      "deviceSerialNumber": "50-19702-15",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": []
-    },
-    {
-      "mealTag": "MEAL_TAG_PRE_MEAL",
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 130,
-        "units": "mg/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA3CA40D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254404,
-      "createdDate": 1453502254404,
-      "publishedDate": 1453502254533,
-      "readingDate": "2015-06-03T17:42:00",
-      "deviceType": "METERTYPES_ONETOUCHPING",
-      "deviceSerialNumber": "50-19702-15",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": []
-    },
-    {
-      "mealTag": "MEAL_TAG_POST_MEAL",
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 255,
-        "units": "mg/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA3CA30D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254403,
-      "createdDate": 1453502254403,
-      "publishedDate": 1453502254533,
-      "readingDate": "2015-06-03T22:46:00",
-      "deviceType": "METERTYPES_ONETOUCHPING",
-      "deviceSerialNumber": "50-19702-15",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": []
-    },
-    {
-      "mealTag": "MEAL_TAG_PRE_MEAL",
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 140,
-        "units": "mg/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA3CA20D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254402,
-      "createdDate": 1453502254402,
-      "publishedDate": 1453502254533,
-      "readingDate": "2015-06-04T08:41:00",
-      "deviceType": "METERTYPES_ONETOUCHPING",
-      "deviceSerialNumber": "50-19702-15",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": []
-    },
-    {
-      "mealTag": "MEAL_TAG_POST_MEAL",
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 194,
-        "units": "mg/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA3CA10D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254402,
-      "createdDate": 1453502254402,
-      "publishedDate": 1453502254533,
-      "readingDate": "2015-06-04T10:06:00",
-      "deviceType": "METERTYPES_ONETOUCHPING",
-      "deviceSerialNumber": "50-19702-15",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": []
-    },
-    {
-      "mealTag": "MEAL_TAG_PRE_MEAL",
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 171,
-        "units": "mg/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA3CA00D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254401,
-      "createdDate": 1453502254401,
-      "publishedDate": 1453502254533,
-      "readingDate": "2015-06-04T11:20:00",
-      "deviceType": "METERTYPES_ONETOUCHPING",
-      "deviceSerialNumber": "50-19702-15",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": []
-    },
-    {
-      "mealTag": "MEAL_TAG_PRE_MEAL",
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 186,
-        "units": "mg/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA3C9F0D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254400,
-      "createdDate": 1453502254400,
-      "publishedDate": 1453502254533,
-      "readingDate": "2015-06-04T12:00:00",
-      "deviceType": "METERTYPES_ONETOUCHPING",
-      "deviceSerialNumber": "50-19702-15",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": []
-    },
-    {
-      "mealTag": "MEAL_TAG_PRE_MEAL",
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 267,
-        "units": "mg/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA3C9E0D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254399,
-      "createdDate": 1453502254399,
-      "publishedDate": 1453502254533,
-      "readingDate": "2015-06-04T19:57:00",
-      "deviceType": "METERTYPES_ONETOUCHPING",
-      "deviceSerialNumber": "50-19702-15",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": []
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 280,
-        "units": "mg/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA3C9D0D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254398,
-      "createdDate": 1453502254398,
-      "publishedDate": 1453502254533,
-      "readingDate": "2015-06-05T00:23:00",
-      "deviceType": "METERTYPES_ONETOUCHPING",
-      "deviceSerialNumber": "50-19702-15",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": []
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 258,
-        "units": "mg/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA3C9C0D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254398,
-      "createdDate": 1453502254398,
-      "publishedDate": 1453502254533,
-      "readingDate": "2015-06-05T01:55:00",
-      "deviceType": "METERTYPES_ONETOUCHPING",
-      "deviceSerialNumber": "50-19702-15",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": []
-    },
-    {
-      "mealTag": "MEAL_TAG_PRE_MEAL",
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 226,
-        "units": "mg/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA3C9B0D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254397,
-      "createdDate": 1453502254397,
-      "publishedDate": 1453502254533,
-      "readingDate": "2015-06-05T07:49:00",
-      "deviceType": "METERTYPES_ONETOUCHPING",
-      "deviceSerialNumber": "50-19702-15",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": []
-    },
-    {
-      "mealTag": "MEAL_TAG_PRE_MEAL",
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 319,
-        "units": "mg/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA3C9A0D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254396,
-      "createdDate": 1453502254396,
-      "publishedDate": 1453502254533,
-      "readingDate": "2015-06-05T12:26:00",
-      "deviceType": "METERTYPES_ONETOUCHPING",
-      "deviceSerialNumber": "50-19702-15",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": []
-    },
-    {
-      "mealTag": "MEAL_TAG_POST_MEAL",
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 153,
-        "units": "mg/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA3C990D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254395,
-      "createdDate": 1453502254395,
-      "publishedDate": 1453502254533,
-      "readingDate": "2015-06-05T20:29:00",
-      "deviceType": "METERTYPES_ONETOUCHPING",
-      "deviceSerialNumber": "50-19702-15",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": []
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 201,
-        "units": "mg/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA3C980D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254394,
-      "createdDate": 1453502254394,
-      "publishedDate": 1453502254533,
-      "readingDate": "2015-06-06T02:03:00",
-      "deviceType": "METERTYPES_ONETOUCHPING",
-      "deviceSerialNumber": "50-19702-15",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": []
-    },
-    {
-      "mealTag": "MEAL_TAG_PRE_MEAL",
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 124,
-        "units": "mg/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA3C970D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254393,
-      "createdDate": 1453502254393,
-      "publishedDate": 1453502254533,
-      "readingDate": "2015-06-06T08:10:00",
-      "deviceType": "METERTYPES_ONETOUCHPING",
-      "deviceSerialNumber": "50-19702-15",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": []
-    },
-    {
-      "mealTag": "MEAL_TAG_POST_MEAL",
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 98,
-        "units": "mg/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA3C960D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254393,
-      "createdDate": 1453502254393,
-      "publishedDate": 1453502254533,
-      "readingDate": "2015-06-06T16:31:00",
-      "deviceType": "METERTYPES_ONETOUCHPING",
-      "deviceSerialNumber": "50-19702-15",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": []
-    },
-    {
-      "mealTag": "MEAL_TAG_PRE_MEAL",
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 275,
-        "units": "mg/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA3C950D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254392,
-      "createdDate": 1453502254392,
-      "publishedDate": 1453502254533,
-      "readingDate": "2015-06-06T19:46:00",
-      "deviceType": "METERTYPES_ONETOUCHPING",
-      "deviceSerialNumber": "50-19702-15",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": []
-    },
-    {
-      "mealTag": "MEAL_TAG_POST_MEAL",
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 194,
-        "units": "mg/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA3C940D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254391,
-      "createdDate": 1453502254391,
-      "publishedDate": 1453502254533,
-      "readingDate": "2015-06-06T21:28:00",
-      "deviceType": "METERTYPES_ONETOUCHPING",
-      "deviceSerialNumber": "50-19702-15",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": []
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 132,
-        "units": "mg/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA3C930D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254390,
-      "createdDate": 1453502254390,
-      "publishedDate": 1453502254533,
-      "readingDate": "2015-06-07T01:03:00",
+      "readingDate": "2016-01-01T17:23:00",
       "deviceType": "METERTYPES_ONETOUCHPING",
       "deviceSerialNumber": "50-19702-15",
       "edited": false,
@@ -786,95 +51,11 @@
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
-      "id": "29F4CACA3C920D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254389,
-      "createdDate": 1453502254389,
+      "id": "29F4CACA39BE0D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253789,
+      "createdDate": 1453502253789,
       "publishedDate": 1453502254533,
-      "readingDate": "2015-06-07T07:06:00",
-      "deviceType": "METERTYPES_ONETOUCHPING",
-      "deviceSerialNumber": "50-19702-15",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": []
-    },
-    {
-      "mealTag": "MEAL_TAG_PRE_MEAL",
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 174,
-        "units": "mg/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA3C910D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254388,
-      "createdDate": 1453502254388,
-      "publishedDate": 1453502254533,
-      "readingDate": "2015-06-07T12:23:00",
-      "deviceType": "METERTYPES_ONETOUCHPING",
-      "deviceSerialNumber": "50-19702-15",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": []
-    },
-    {
-      "mealTag": "MEAL_TAG_PRE_MEAL",
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 141,
-        "units": "mg/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA3C900D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254387,
-      "createdDate": 1453502254387,
-      "publishedDate": 1453502254533,
-      "readingDate": "2015-06-07T13:54:00",
-      "deviceType": "METERTYPES_ONETOUCHPING",
-      "deviceSerialNumber": "50-19702-15",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": []
-    },
-    {
-      "mealTag": "MEAL_TAG_PRE_MEAL",
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 120,
-        "units": "mg/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA3C8F0D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254387,
-      "createdDate": 1453502254387,
-      "publishedDate": 1453502254533,
-      "readingDate": "2015-06-07T17:33:00",
-      "deviceType": "METERTYPES_ONETOUCHPING",
-      "deviceSerialNumber": "50-19702-15",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": []
-    },
-    {
-      "mealTag": "MEAL_TAG_POST_MEAL",
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 89,
-        "units": "mg/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA3C8E0D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254386,
-      "createdDate": 1453502254386,
-      "publishedDate": 1453502254533,
-      "readingDate": "2015-06-07T20:21:00",
+      "readingDate": "2016-01-01T19:41:00",
       "deviceType": "METERTYPES_ONETOUCHPING",
       "deviceSerialNumber": "50-19702-15",
       "edited": false,
@@ -886,16 +67,16 @@
       "mealTag": null,
       "cgmCalibration": false,
       "bgValue": {
-        "value": 179,
+        "value": 337,
         "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
-      "id": "29F4CACA3C8D0D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254385,
-      "createdDate": 1453502254385,
+      "id": "29F4CACA39BD0D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253788,
+      "createdDate": 1453502253788,
       "publishedDate": 1453502254533,
-      "readingDate": "2015-06-08T00:11:00",
+      "readingDate": "2016-01-02T01:26:00",
       "deviceType": "METERTYPES_ONETOUCHPING",
       "deviceSerialNumber": "50-19702-15",
       "edited": false,
@@ -907,16 +88,16 @@
       "mealTag": "MEAL_TAG_PRE_MEAL",
       "cgmCalibration": false,
       "bgValue": {
-        "value": 231,
+        "value": 85,
         "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
-      "id": "29F4CACA3C8C0D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254384,
-      "createdDate": 1453502254384,
+      "id": "29F4CACA39BC0D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253788,
+      "createdDate": 1453502253788,
       "publishedDate": 1453502254533,
-      "readingDate": "2015-06-08T07:35:00",
+      "readingDate": "2016-01-02T06:13:00",
       "deviceType": "METERTYPES_ONETOUCHPING",
       "deviceSerialNumber": "50-19702-15",
       "edited": false,
@@ -928,16 +109,1192 @@
       "mealTag": "MEAL_TAG_PRE_MEAL",
       "cgmCalibration": false,
       "bgValue": {
-        "value": 84,
+        "value": 95,
         "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
-      "id": "29F4CACA3C8B0D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254383,
-      "createdDate": 1453502254383,
+      "id": "29F4CACA39BB0D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253787,
+      "createdDate": 1453502253787,
       "publishedDate": 1453502254533,
-      "readingDate": "2015-06-08T11:02:00",
+      "readingDate": "2016-01-02T07:11:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": null,
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 104,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA39BA0D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253786,
+      "createdDate": 1453502253786,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-02T11:07:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": "MEAL_TAG_PRE_MEAL",
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 94,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA39B90D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253785,
+      "createdDate": 1453502253785,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-03T07:28:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": null,
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 220,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA39B80D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253784,
+      "createdDate": 1453502253784,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-03T13:15:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": "MEAL_TAG_PRE_MEAL",
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 108,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA39B70D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253783,
+      "createdDate": 1453502253783,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-03T17:23:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": "MEAL_TAG_PRE_MEAL",
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 139,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA39B60D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253783,
+      "createdDate": 1453502253783,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-03T18:58:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": null,
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 235,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA39B50D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253782,
+      "createdDate": 1453502253782,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-04T01:12:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": "MEAL_TAG_PRE_MEAL",
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 72,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA39B40D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253781,
+      "createdDate": 1453502253781,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-04T06:10:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": "MEAL_TAG_PRE_MEAL",
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 152,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA39B30D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253780,
+      "createdDate": 1453502253780,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-04T07:40:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": "MEAL_TAG_PRE_MEAL",
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 109,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA39B20D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253779,
+      "createdDate": 1453502253779,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-04T15:40:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": null,
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 143,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA39B10D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253778,
+      "createdDate": 1453502253778,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-05T01:56:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": "MEAL_TAG_PRE_MEAL",
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 125,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA39B00D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253778,
+      "createdDate": 1453502253778,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-05T07:37:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": null,
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 142,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA39AF0D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253777,
+      "createdDate": 1453502253777,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-06T01:22:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": null,
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 152,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA39AE0D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253776,
+      "createdDate": 1453502253776,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-06T01:32:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": null,
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 165,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA39AD0D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253775,
+      "createdDate": 1453502253775,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-06T01:47:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": null,
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 297,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA39AC0D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253774,
+      "createdDate": 1453502253774,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-06T02:34:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": "MEAL_TAG_POST_MEAL",
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 118,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA39AB0D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253773,
+      "createdDate": 1453502253773,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-06T10:01:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": "MEAL_TAG_PRE_MEAL",
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 73,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA39AA0D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253773,
+      "createdDate": 1453502253773,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-06T12:44:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": "MEAL_TAG_PRE_MEAL",
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 100,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA39A90D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253772,
+      "createdDate": 1453502253772,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-06T17:44:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": "MEAL_TAG_POST_MEAL",
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 128,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA39A80D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253771,
+      "createdDate": 1453502253771,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-07T09:30:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": "MEAL_TAG_POST_MEAL",
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 225,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA39A70D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253770,
+      "createdDate": 1453502253770,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-07T13:34:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": null,
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 222,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA39A60D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253769,
+      "createdDate": 1453502253769,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-07T14:40:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": "MEAL_TAG_POST_MEAL",
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 103,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA39A50D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253768,
+      "createdDate": 1453502253768,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-07T17:34:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": "MEAL_TAG_PRE_MEAL",
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 86,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA39A40D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253767,
+      "createdDate": 1453502253767,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-07T18:16:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": null,
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 150,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA39A30D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253767,
+      "createdDate": 1453502253767,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-08T00:49:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": "MEAL_TAG_PRE_MEAL",
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 79,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA39A20D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253766,
+      "createdDate": 1453502253766,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-08T06:35:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": "MEAL_TAG_POST_MEAL",
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 220,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA39A10D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253765,
+      "createdDate": 1453502253765,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-08T07:15:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": "MEAL_TAG_PRE_MEAL",
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 103,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA39A00D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253764,
+      "createdDate": 1453502253764,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-09T18:15:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": null,
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 330,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA399F0D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253763,
+      "createdDate": 1453502253763,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-10T00:32:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": "MEAL_TAG_PRE_MEAL",
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 118,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA399E0D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253762,
+      "createdDate": 1453502253762,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-10T11:02:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": null,
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 65,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA399D0D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253762,
+      "createdDate": 1453502253762,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-10T12:11:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": "MEAL_TAG_POST_MEAL",
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 209,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA399C0D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253761,
+      "createdDate": 1453502253761,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-10T13:41:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": null,
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 169,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA399B0D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253760,
+      "createdDate": 1453502253760,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-11T03:27:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": null,
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 62,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA399A0D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253759,
+      "createdDate": 1453502253759,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-11T11:28:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": "MEAL_TAG_PRE_MEAL",
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 95,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA39990D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253758,
+      "createdDate": 1453502253758,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-11T19:15:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": null,
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 126,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA39980D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253758,
+      "createdDate": 1453502253758,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-12T01:57:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": "MEAL_TAG_POST_MEAL",
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 123,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA39970D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253757,
+      "createdDate": 1453502253757,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-12T07:26:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": "MEAL_TAG_POST_MEAL",
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 434,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA39960D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253756,
+      "createdDate": 1453502253756,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-12T15:55:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": null,
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 181,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA39950D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253755,
+      "createdDate": 1453502253755,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-13T02:18:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": "MEAL_TAG_PRE_MEAL",
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 162,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA39940D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253754,
+      "createdDate": 1453502253754,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-13T11:52:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": "MEAL_TAG_POST_MEAL",
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 197,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA39930D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253754,
+      "createdDate": 1453502253754,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-13T14:40:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": "MEAL_TAG_PRE_MEAL",
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 113,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA39920D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253753,
+      "createdDate": 1453502253753,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-13T18:06:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": "MEAL_TAG_POST_MEAL",
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 208,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA39910D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253752,
+      "createdDate": 1453502253752,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-14T09:02:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": "MEAL_TAG_POST_MEAL",
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 330,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA39900D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253751,
+      "createdDate": 1453502253751,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-14T13:04:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": "MEAL_TAG_POST_MEAL",
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 459,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA398F0D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253750,
+      "createdDate": 1453502253750,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-14T14:57:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": null,
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 335,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA398E0D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253749,
+      "createdDate": 1453502253749,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-15T00:10:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": null,
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 334,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA398D0D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253749,
+      "createdDate": 1453502253749,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-15T00:11:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": "MEAL_TAG_PRE_MEAL",
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 279,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA398C0D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253748,
+      "createdDate": 1453502253748,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-15T10:59:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": "MEAL_TAG_POST_MEAL",
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 403,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA398B0D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253747,
+      "createdDate": 1453502253747,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-15T14:35:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": "MEAL_TAG_PRE_MEAL",
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 393,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA398A0D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253746,
+      "createdDate": 1453502253746,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-15T19:27:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": "MEAL_TAG_PRE_MEAL",
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 125,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA39890D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253745,
+      "createdDate": 1453502253745,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-16T06:35:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": "MEAL_TAG_PRE_MEAL",
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 135,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA39880D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253745,
+      "createdDate": 1453502253745,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-16T09:35:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": "MEAL_TAG_PRE_MEAL",
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 59,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA39870D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253744,
+      "createdDate": 1453502253744,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-16T12:38:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": "MEAL_TAG_POST_MEAL",
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 189,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA39860D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253743,
+      "createdDate": 1453502253743,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-16T14:28:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": "MEAL_TAG_POST_MEAL",
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 129,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA39850D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253742,
+      "createdDate": 1453502253742,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-17T00:05:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": "MEAL_TAG_PRE_MEAL",
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 357,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA39840D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253741,
+      "createdDate": 1453502253741,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-17T11:48:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": "MEAL_TAG_POST_MEAL",
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 225,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA39830D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253740,
+      "createdDate": 1453502253740,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-17T13:48:00",
       "deviceType": "METERTYPES_ONETOUCHPING",
       "deviceSerialNumber": "50-19702-15",
       "edited": false,
@@ -954,11 +1311,11 @@
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
-      "id": "29F4CACA3C8A0D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254382,
-      "createdDate": 1453502254382,
+      "id": "29F4CACA39820D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253740,
+      "createdDate": 1453502253740,
       "publishedDate": 1453502254533,
-      "readingDate": "2015-06-08T17:24:00",
+      "readingDate": "2016-01-17T18:56:00",
       "deviceType": "METERTYPES_ONETOUCHPING",
       "deviceSerialNumber": "50-19702-15",
       "edited": false,
@@ -970,16 +1327,58 @@
       "mealTag": "MEAL_TAG_POST_MEAL",
       "cgmCalibration": false,
       "bgValue": {
-        "value": 310,
+        "value": 165,
         "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
-      "id": "29F4CACA3C890D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254382,
-      "createdDate": 1453502254382,
+      "id": "29F4CACA39810D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253739,
+      "createdDate": 1453502253739,
       "publishedDate": 1453502254533,
-      "readingDate": "2015-06-08T21:23:00",
+      "readingDate": "2016-01-18T10:21:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": "MEAL_TAG_PRE_MEAL",
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 185,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA39800D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253738,
+      "createdDate": 1453502253738,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-18T12:05:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "mealTag": "MEAL_TAG_PRE_MEAL",
+      "cgmCalibration": false,
+      "bgValue": {
+        "value": 90,
+        "units": "mg/dL"
+      },
+      "aboveLinearRange": false,
+      "belowLinearRange": false,
+      "id": "29F4CACA397F0D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253737,
+      "createdDate": 1453502253737,
+      "publishedDate": 1453502254533,
+      "readingDate": "2016-01-18T19:41:00",
       "deviceType": "METERTYPES_ONETOUCHPING",
       "deviceSerialNumber": "50-19702-15",
       "edited": false,
@@ -991,16 +1390,16 @@
       "mealTag": null,
       "cgmCalibration": false,
       "bgValue": {
-        "value": 272,
+        "value": 180,
         "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
-      "id": "29F4CACA3C880D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254381,
-      "createdDate": 1453502254381,
+      "id": "29F4CACA397E0D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253736,
+      "createdDate": 1453502253736,
       "publishedDate": 1453502254533,
-      "readingDate": "2015-06-08T23:39:00",
+      "readingDate": "2016-01-19T01:24:00",
       "deviceType": "METERTYPES_ONETOUCHPING",
       "deviceSerialNumber": "50-19702-15",
       "edited": false,
@@ -1012,16 +1411,16 @@
       "mealTag": "MEAL_TAG_PRE_MEAL",
       "cgmCalibration": false,
       "bgValue": {
-        "value": 88,
+        "value": 109,
         "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
-      "id": "29F4CACA3C870D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254380,
-      "createdDate": 1453502254380,
+      "id": "29F4CACA397D0D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253735,
+      "createdDate": 1453502253735,
       "publishedDate": 1453502254533,
-      "readingDate": "2015-06-09T07:45:00",
+      "readingDate": "2016-01-19T12:40:00",
       "deviceType": "METERTYPES_ONETOUCHPING",
       "deviceSerialNumber": "50-19702-15",
       "edited": false,
@@ -1033,16 +1432,16 @@
       "mealTag": "MEAL_TAG_PRE_MEAL",
       "cgmCalibration": false,
       "bgValue": {
-        "value": 372,
+        "value": 119,
         "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
-      "id": "29F4CACA3C860D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502254379,
-      "createdDate": 1453502254379,
+      "id": "29F4CACA397C0D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502253734,
+      "createdDate": 1453502253734,
       "publishedDate": 1453502254533,
-      "readingDate": "2015-06-09T13:54:00",
+      "readingDate": "2016-01-19T19:24:00",
       "deviceType": "METERTYPES_ONETOUCHPING",
       "deviceSerialNumber": "50-19702-15",
       "edited": false,
@@ -1053,21 +1452,1200 @@
   ],
   "food": [],
   "exercise": [],
-  "bolusInsulin": [],
+  "bolusInsulin": [
+    {
+      "bolusDelivered": {
+        "value": 0.75,
+        "units": "U"
+      },
+      "bolusCalculated": {
+        "value": 0.75,
+        "units": "U"
+      },
+      "bolusRequested": {
+        "value": 0.75,
+        "units": "U"
+      },
+      "bolusOverride": false,
+      "bolusCancelled": false,
+      "bgCorrection": true,
+      "mealCorrection": false,
+      "id": "29F4CACA40FA0D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502261740,
+      "createdDate": 1453502261740,
+      "publishedDate": 1453502262030,
+      "readingDate": "2016-01-01T01:26:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "bolusDelivered": {
+        "value": 0.65,
+        "units": "U"
+      },
+      "bolusCalculated": {
+        "value": 0.65,
+        "units": "U"
+      },
+      "bolusRequested": {
+        "value": 0.65,
+        "units": "U"
+      },
+      "bolusOverride": false,
+      "bolusCancelled": false,
+      "bgCorrection": true,
+      "mealCorrection": false,
+      "id": "29F4CACA40F90D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502261740,
+      "createdDate": 1453502261740,
+      "publishedDate": 1453502262030,
+      "readingDate": "2016-01-01T07:24:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "bolusDelivered": {
+        "value": 13,
+        "units": "U"
+      },
+      "bolusCalculated": null,
+      "bolusRequested": {
+        "value": 13,
+        "units": "U"
+      },
+      "bolusOverride": false,
+      "bolusCancelled": false,
+      "bgCorrection": false,
+      "mealCorrection": false,
+      "id": "29F4CACA40F80D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502261739,
+      "createdDate": 1453502261739,
+      "publishedDate": 1453502262030,
+      "readingDate": "2016-01-01T10:24:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "bolusDelivered": {
+        "value": 3.5,
+        "units": "U"
+      },
+      "bolusCalculated": null,
+      "bolusRequested": {
+        "value": 3.5,
+        "units": "U"
+      },
+      "bolusOverride": false,
+      "bolusCancelled": false,
+      "bgCorrection": false,
+      "mealCorrection": false,
+      "id": "29F4CACA40F70D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502261738,
+      "createdDate": 1453502261738,
+      "publishedDate": 1453502262030,
+      "readingDate": "2016-01-01T13:57:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "bolusDelivered": {
+        "value": 15,
+        "units": "U"
+      },
+      "bolusCalculated": null,
+      "bolusRequested": {
+        "value": 15,
+        "units": "U"
+      },
+      "bolusOverride": false,
+      "bolusCancelled": false,
+      "bgCorrection": false,
+      "mealCorrection": false,
+      "id": "29F4CACA40F60D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502261737,
+      "createdDate": 1453502261737,
+      "publishedDate": 1453502262030,
+      "readingDate": "2016-01-02T07:54:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "bolusDelivered": {
+        "value": 0,
+        "units": "U"
+      },
+      "bolusCalculated": {
+        "value": 0,
+        "units": "U"
+      },
+      "bolusRequested": {
+        "value": 0,
+        "units": "U"
+      },
+      "bolusOverride": false,
+      "bolusCancelled": false,
+      "bgCorrection": true,
+      "mealCorrection": false,
+      "id": "29F4CACA40F50D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502261736,
+      "createdDate": 1453502261736,
+      "publishedDate": 1453502262030,
+      "readingDate": "2016-01-02T11:07:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "bolusDelivered": {
+        "value": 3,
+        "units": "U"
+      },
+      "bolusCalculated": null,
+      "bolusRequested": {
+        "value": 3,
+        "units": "U"
+      },
+      "bolusOverride": false,
+      "bolusCancelled": false,
+      "bgCorrection": false,
+      "mealCorrection": false,
+      "id": "29F4CACA40F40D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502261736,
+      "createdDate": 1453502261736,
+      "publishedDate": 1453502262030,
+      "readingDate": "2016-01-02T17:58:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "bolusDelivered": {
+        "value": 1.7,
+        "units": "U"
+      },
+      "bolusCalculated": {
+        "value": 1.7,
+        "units": "U"
+      },
+      "bolusRequested": {
+        "value": 1.7,
+        "units": "U"
+      },
+      "bolusOverride": false,
+      "bolusCancelled": false,
+      "bgCorrection": true,
+      "mealCorrection": false,
+      "id": "29F4CACA40F30D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502261735,
+      "createdDate": 1453502261735,
+      "publishedDate": 1453502262030,
+      "readingDate": "2016-01-02T21:57:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "bolusDelivered": {
+        "value": 0.65,
+        "units": "U"
+      },
+      "bolusCalculated": {
+        "value": 0.65,
+        "units": "U"
+      },
+      "bolusRequested": {
+        "value": 0.65,
+        "units": "U"
+      },
+      "bolusOverride": false,
+      "bolusCancelled": false,
+      "bgCorrection": true,
+      "mealCorrection": false,
+      "id": "29F4CACA40F20D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502261734,
+      "createdDate": 1453502261734,
+      "publishedDate": 1453502262030,
+      "readingDate": "2016-01-03T02:15:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "bolusDelivered": {
+        "value": 4,
+        "units": "U"
+      },
+      "bolusCalculated": null,
+      "bolusRequested": {
+        "value": 4,
+        "units": "U"
+      },
+      "bolusOverride": false,
+      "bolusCancelled": false,
+      "bgCorrection": false,
+      "mealCorrection": false,
+      "id": "29F4CACA40F10D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502261733,
+      "createdDate": 1453502261733,
+      "publishedDate": 1453502262030,
+      "readingDate": "2016-01-03T19:29:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "bolusDelivered": {
+        "value": 0,
+        "units": "U"
+      },
+      "bolusCalculated": {
+        "value": 0,
+        "units": "U"
+      },
+      "bolusRequested": {
+        "value": 0,
+        "units": "U"
+      },
+      "bolusOverride": false,
+      "bolusCancelled": false,
+      "bgCorrection": true,
+      "mealCorrection": false,
+      "id": "29F4CACA40F00D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502261732,
+      "createdDate": 1453502261732,
+      "publishedDate": 1453502262030,
+      "readingDate": "2016-01-03T21:18:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "bolusDelivered": {
+        "value": 0.7,
+        "units": "U"
+      },
+      "bolusCalculated": {
+        "value": 0.7,
+        "units": "U"
+      },
+      "bolusRequested": {
+        "value": 0.7,
+        "units": "U"
+      },
+      "bolusOverride": false,
+      "bolusCancelled": false,
+      "bgCorrection": true,
+      "mealCorrection": false,
+      "id": "29F4CACA40EF0D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502261731,
+      "createdDate": 1453502261731,
+      "publishedDate": 1453502262030,
+      "readingDate": "2016-01-03T23:32:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "bolusDelivered": {
+        "value": 0.55,
+        "units": "U"
+      },
+      "bolusCalculated": {
+        "value": 0.55,
+        "units": "U"
+      },
+      "bolusRequested": {
+        "value": 0.55,
+        "units": "U"
+      },
+      "bolusOverride": false,
+      "bolusCancelled": false,
+      "bgCorrection": true,
+      "mealCorrection": false,
+      "id": "29F4CACA40EE0D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502261730,
+      "createdDate": 1453502261730,
+      "publishedDate": 1453502262030,
+      "readingDate": "2016-01-04T01:13:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "bolusDelivered": {
+        "value": 1,
+        "units": "U"
+      },
+      "bolusCalculated": {
+        "value": 1,
+        "units": "U"
+      },
+      "bolusRequested": {
+        "value": 1,
+        "units": "U"
+      },
+      "bolusOverride": false,
+      "bolusCancelled": false,
+      "bgCorrection": true,
+      "mealCorrection": false,
+      "id": "29F4CACA40ED0D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502261729,
+      "createdDate": 1453502261729,
+      "publishedDate": 1453502262030,
+      "readingDate": "2016-01-04T07:41:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "bolusDelivered": {
+        "value": 7,
+        "units": "U"
+      },
+      "bolusCalculated": null,
+      "bolusRequested": {
+        "value": 7,
+        "units": "U"
+      },
+      "bolusOverride": false,
+      "bolusCancelled": false,
+      "bgCorrection": false,
+      "mealCorrection": false,
+      "id": "29F4CACA40EC0D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502261728,
+      "createdDate": 1453502261728,
+      "publishedDate": 1453502262030,
+      "readingDate": "2016-01-04T09:41:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "bolusDelivered": {
+        "value": 5.35,
+        "units": "U"
+      },
+      "bolusCalculated": null,
+      "bolusRequested": {
+        "value": 5.35,
+        "units": "U"
+      },
+      "bolusOverride": false,
+      "bolusCancelled": false,
+      "bgCorrection": false,
+      "mealCorrection": false,
+      "id": "29F4CACA40EB0D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502261727,
+      "createdDate": 1453502261727,
+      "publishedDate": 1453502262030,
+      "readingDate": "2016-01-04T10:19:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "bolusDelivered": {
+        "value": 5,
+        "units": "U"
+      },
+      "bolusCalculated": null,
+      "bolusRequested": {
+        "value": 5,
+        "units": "U"
+      },
+      "bolusOverride": false,
+      "bolusCancelled": false,
+      "bgCorrection": false,
+      "mealCorrection": false,
+      "id": "29F4CACA40EA0D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502261727,
+      "createdDate": 1453502261727,
+      "publishedDate": 1453502262030,
+      "readingDate": "2016-01-04T13:05:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "bolusDelivered": {
+        "value": 5,
+        "units": "U"
+      },
+      "bolusCalculated": null,
+      "bolusRequested": {
+        "value": 5,
+        "units": "U"
+      },
+      "bolusOverride": false,
+      "bolusCancelled": false,
+      "bgCorrection": false,
+      "mealCorrection": false,
+      "id": "29F4CACA40E90D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502261726,
+      "createdDate": 1453502261726,
+      "publishedDate": 1453502262030,
+      "readingDate": "2016-01-04T17:36:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "bolusDelivered": {
+        "value": 15,
+        "units": "U"
+      },
+      "bolusCalculated": null,
+      "bolusRequested": {
+        "value": 15,
+        "units": "U"
+      },
+      "bolusOverride": false,
+      "bolusCancelled": false,
+      "bgCorrection": false,
+      "mealCorrection": false,
+      "id": "29F4CACA40E80D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502261725,
+      "createdDate": 1453502261725,
+      "publishedDate": 1453502262030,
+      "readingDate": "2016-01-05T08:17:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "bolusDelivered": {
+        "value": 3.55,
+        "units": "U"
+      },
+      "bolusCalculated": null,
+      "bolusRequested": {
+        "value": 3.55,
+        "units": "U"
+      },
+      "bolusOverride": false,
+      "bolusCancelled": false,
+      "bgCorrection": false,
+      "mealCorrection": false,
+      "id": "29F4CACA40E70D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502261724,
+      "createdDate": 1453502261724,
+      "publishedDate": 1453502262030,
+      "readingDate": "2016-01-05T17:19:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "bolusDelivered": {
+        "value": 3,
+        "units": "U"
+      },
+      "bolusCalculated": null,
+      "bolusRequested": {
+        "value": 3,
+        "units": "U"
+      },
+      "bolusOverride": false,
+      "bolusCancelled": false,
+      "bgCorrection": false,
+      "mealCorrection": false,
+      "id": "29F4CACA40E60D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502261724,
+      "createdDate": 1453502261724,
+      "publishedDate": 1453502262030,
+      "readingDate": "2016-01-05T19:56:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "bolusDelivered": {
+        "value": 1.3,
+        "units": "U"
+      },
+      "bolusCalculated": {
+        "value": 1.3,
+        "units": "U"
+      },
+      "bolusRequested": {
+        "value": 1.3,
+        "units": "U"
+      },
+      "bolusOverride": false,
+      "bolusCancelled": false,
+      "bgCorrection": true,
+      "mealCorrection": false,
+      "id": "29F4CACA40E50D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502261723,
+      "createdDate": 1453502261723,
+      "publishedDate": 1453502262030,
+      "readingDate": "2016-01-05T23:28:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "bolusDelivered": {
+        "value": 1.2,
+        "units": "U"
+      },
+      "bolusCalculated": {
+        "value": 1.2,
+        "units": "U"
+      },
+      "bolusRequested": {
+        "value": 1.2,
+        "units": "U"
+      },
+      "bolusOverride": false,
+      "bolusCancelled": false,
+      "bgCorrection": true,
+      "mealCorrection": false,
+      "id": "29F4CACA40E40D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502261722,
+      "createdDate": 1453502261722,
+      "publishedDate": 1453502262030,
+      "readingDate": "2016-01-06T02:35:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "bolusDelivered": {
+        "value": 6.05,
+        "units": "U"
+      },
+      "bolusCalculated": null,
+      "bolusRequested": {
+        "value": 6.05,
+        "units": "U"
+      },
+      "bolusOverride": false,
+      "bolusCancelled": false,
+      "bgCorrection": false,
+      "mealCorrection": false,
+      "id": "29F4CACA40E30D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502261721,
+      "createdDate": 1453502261721,
+      "publishedDate": 1453502262030,
+      "readingDate": "2016-01-06T10:55:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "bolusDelivered": {
+        "value": 3.35,
+        "units": "U"
+      },
+      "bolusCalculated": null,
+      "bolusRequested": {
+        "value": 3.35,
+        "units": "U"
+      },
+      "bolusOverride": false,
+      "bolusCancelled": false,
+      "bgCorrection": false,
+      "mealCorrection": false,
+      "id": "29F4CACA40E20D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502261721,
+      "createdDate": 1453502261721,
+      "publishedDate": 1453502262030,
+      "readingDate": "2016-01-07T22:19:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "bolusDelivered": {
+        "value": 3.05,
+        "units": "U"
+      },
+      "bolusCalculated": null,
+      "bolusRequested": {
+        "value": 3.05,
+        "units": "U"
+      },
+      "bolusOverride": false,
+      "bolusCancelled": false,
+      "bgCorrection": false,
+      "mealCorrection": false,
+      "id": "29F4CACA40E10D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502261720,
+      "createdDate": 1453502261720,
+      "publishedDate": 1453502262030,
+      "readingDate": "2016-01-07T22:35:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "bolusDelivered": {
+        "value": 0,
+        "units": "U"
+      },
+      "bolusCalculated": {
+        "value": 0,
+        "units": "U"
+      },
+      "bolusRequested": {
+        "value": 0,
+        "units": "U"
+      },
+      "bolusOverride": false,
+      "bolusCancelled": false,
+      "bgCorrection": true,
+      "mealCorrection": false,
+      "id": "29F4CACA40E00D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502261719,
+      "createdDate": 1453502261719,
+      "publishedDate": 1453502262030,
+      "readingDate": "2016-01-07T23:41:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "bolusDelivered": {
+        "value": 0.55,
+        "units": "U"
+      },
+      "bolusCalculated": {
+        "value": 0.55,
+        "units": "U"
+      },
+      "bolusRequested": {
+        "value": 0.55,
+        "units": "U"
+      },
+      "bolusOverride": false,
+      "bolusCancelled": false,
+      "bgCorrection": true,
+      "mealCorrection": false,
+      "id": "29F4CACA40DF0D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502261718,
+      "createdDate": 1453502261718,
+      "publishedDate": 1453502262030,
+      "readingDate": "2016-01-08T00:49:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "bolusDelivered": {
+        "value": 2,
+        "units": "U"
+      },
+      "bolusCalculated": null,
+      "bolusRequested": {
+        "value": 2,
+        "units": "U"
+      },
+      "bolusOverride": false,
+      "bolusCancelled": false,
+      "bgCorrection": false,
+      "mealCorrection": false,
+      "id": "29F4CACA40DE0D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502261718,
+      "createdDate": 1453502261718,
+      "publishedDate": 1453502262030,
+      "readingDate": "2016-01-08T07:16:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "bolusDelivered": {
+        "value": 17.6,
+        "units": "U"
+      },
+      "bolusCalculated": null,
+      "bolusRequested": {
+        "value": 17.6,
+        "units": "U"
+      },
+      "bolusOverride": false,
+      "bolusCancelled": false,
+      "bgCorrection": false,
+      "mealCorrection": false,
+      "id": "29F4CACA40DD0D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502261717,
+      "createdDate": 1453502261717,
+      "publishedDate": 1453502262030,
+      "readingDate": "2016-01-08T07:50:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "bolusDelivered": {
+        "value": 4.05,
+        "units": "U"
+      },
+      "bolusCalculated": null,
+      "bolusRequested": {
+        "value": 4.05,
+        "units": "U"
+      },
+      "bolusOverride": false,
+      "bolusCancelled": false,
+      "bgCorrection": false,
+      "mealCorrection": false,
+      "id": "29F4CACA40DC0D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502261716,
+      "createdDate": 1453502261716,
+      "publishedDate": 1453502262030,
+      "readingDate": "2016-01-08T13:00:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "bolusDelivered": {
+        "value": 1.2,
+        "units": "U"
+      },
+      "bolusCalculated": {
+        "value": 1.2,
+        "units": "U"
+      },
+      "bolusRequested": {
+        "value": 1.2,
+        "units": "U"
+      },
+      "bolusOverride": false,
+      "bolusCancelled": false,
+      "bgCorrection": true,
+      "mealCorrection": false,
+      "id": "29F4CACA40DB0D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502261715,
+      "createdDate": 1453502261715,
+      "publishedDate": 1453502262030,
+      "readingDate": "2016-01-08T18:40:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "bolusDelivered": {
+        "value": 5.85,
+        "units": "U"
+      },
+      "bolusCalculated": null,
+      "bolusRequested": {
+        "value": 5.85,
+        "units": "U"
+      },
+      "bolusOverride": false,
+      "bolusCancelled": false,
+      "bgCorrection": false,
+      "mealCorrection": false,
+      "id": "29F4CACA40DA0D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502261715,
+      "createdDate": 1453502261715,
+      "publishedDate": 1453502262030,
+      "readingDate": "2016-01-08T18:41:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "bolusDelivered": {
+        "value": 0.8,
+        "units": "U"
+      },
+      "bolusCalculated": {
+        "value": 0.85,
+        "units": "U"
+      },
+      "bolusRequested": {
+        "value": 0.8,
+        "units": "U"
+      },
+      "bolusOverride": false,
+      "bolusCancelled": false,
+      "bgCorrection": true,
+      "mealCorrection": false,
+      "id": "29F4CACA40D90D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502261714,
+      "createdDate": 1453502261714,
+      "publishedDate": 1453502262030,
+      "readingDate": "2016-01-08T21:49:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "bolusDelivered": {
+        "value": 3.55,
+        "units": "U"
+      },
+      "bolusCalculated": null,
+      "bolusRequested": {
+        "value": 3.55,
+        "units": "U"
+      },
+      "bolusOverride": false,
+      "bolusCancelled": false,
+      "bgCorrection": false,
+      "mealCorrection": false,
+      "id": "29F4CACA40D80D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502261713,
+      "createdDate": 1453502261713,
+      "publishedDate": 1453502262030,
+      "readingDate": "2016-01-09T13:39:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "bolusDelivered": {
+        "value": 6.55,
+        "units": "U"
+      },
+      "bolusCalculated": null,
+      "bolusRequested": {
+        "value": 6.55,
+        "units": "U"
+      },
+      "bolusOverride": false,
+      "bolusCancelled": false,
+      "bgCorrection": false,
+      "mealCorrection": false,
+      "id": "29F4CACA40D70D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502261712,
+      "createdDate": 1453502261712,
+      "publishedDate": 1453502262030,
+      "readingDate": "2016-01-09T19:33:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "bolusDelivered": {
+        "value": 1.4,
+        "units": "U"
+      },
+      "bolusCalculated": {
+        "value": 1.4,
+        "units": "U"
+      },
+      "bolusRequested": {
+        "value": 1.4,
+        "units": "U"
+      },
+      "bolusOverride": false,
+      "bolusCancelled": false,
+      "bgCorrection": true,
+      "mealCorrection": false,
+      "id": "29F4CACA40D60D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502261712,
+      "createdDate": 1453502261712,
+      "publishedDate": 1453502262030,
+      "readingDate": "2016-01-10T00:33:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "bolusDelivered": {
+        "value": 1.1,
+        "units": "U"
+      },
+      "bolusCalculated": {
+        "value": 1.1,
+        "units": "U"
+      },
+      "bolusRequested": {
+        "value": 1.1,
+        "units": "U"
+      },
+      "bolusOverride": false,
+      "bolusCancelled": false,
+      "bgCorrection": true,
+      "mealCorrection": false,
+      "id": "29F4CACA40D50D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502261711,
+      "createdDate": 1453502261711,
+      "publishedDate": 1453502262030,
+      "readingDate": "2016-01-10T07:42:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "bolusDelivered": {
+        "value": 10.05,
+        "units": "U"
+      },
+      "bolusCalculated": null,
+      "bolusRequested": {
+        "value": 10.05,
+        "units": "U"
+      },
+      "bolusOverride": false,
+      "bolusCancelled": false,
+      "bgCorrection": false,
+      "mealCorrection": false,
+      "id": "29F4CACA40D40D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502261710,
+      "createdDate": 1453502261710,
+      "publishedDate": 1453502262030,
+      "readingDate": "2016-01-10T20:33:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "bolusDelivered": {
+        "value": 1,
+        "units": "U"
+      },
+      "bolusCalculated": {
+        "value": 1,
+        "units": "U"
+      },
+      "bolusRequested": {
+        "value": 1,
+        "units": "U"
+      },
+      "bolusOverride": false,
+      "bolusCancelled": false,
+      "bgCorrection": true,
+      "mealCorrection": false,
+      "id": "29F4CACA40D30D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502261709,
+      "createdDate": 1453502261709,
+      "publishedDate": 1453502262030,
+      "readingDate": "2016-01-11T03:27:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "bolusDelivered": {
+        "value": 0,
+        "units": "U"
+      },
+      "bolusCalculated": {
+        "value": 0,
+        "units": "U"
+      },
+      "bolusRequested": {
+        "value": 0,
+        "units": "U"
+      },
+      "bolusOverride": false,
+      "bolusCancelled": false,
+      "bgCorrection": true,
+      "mealCorrection": false,
+      "id": "29F4CACA40D20D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502261709,
+      "createdDate": 1453502261709,
+      "publishedDate": 1453502262030,
+      "readingDate": "2016-01-11T11:28:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "bolusDelivered": {
+        "value": 7.3,
+        "units": "U"
+      },
+      "bolusCalculated": null,
+      "bolusRequested": {
+        "value": 7.3,
+        "units": "U"
+      },
+      "bolusOverride": false,
+      "bolusCancelled": false,
+      "bgCorrection": false,
+      "mealCorrection": false,
+      "id": "29F4CACA40D10D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502261708,
+      "createdDate": 1453502261708,
+      "publishedDate": 1453502262030,
+      "readingDate": "2016-01-11T19:32:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    },
+    {
+      "bolusDelivered": {
+        "value": 0,
+        "units": "U"
+      },
+      "bolusCalculated": {
+        "value": 0,
+        "units": "U"
+      },
+      "bolusRequested": {
+        "value": 0,
+        "units": "U"
+      },
+      "bolusOverride": false,
+      "bolusCancelled": false,
+      "bgCorrection": true,
+      "mealCorrection": false,
+      "id": "29F4CACA40D00D96E053E7D56A40883E",
+      "lastUpdatedDate": 1453502261707,
+      "createdDate": 1453502261707,
+      "publishedDate": 1453502262030,
+      "readingDate": "2016-01-11T21:39:00",
+      "deviceType": "METERTYPES_ONETOUCHPING",
+      "deviceSerialNumber": "50-19702-15",
+      "edited": false,
+      "editable": false,
+      "manual": false,
+      "annotation": []
+    }
+  ],
   "meta": {
-    "limit": 50,
-    "startDate": "2015-06-01T00:00:00",
-    "totalCount": 1257,
+    "limit": 112,
+    "startDate": "2016-01-01T00:00:00",
+    "totalCount": 132,
     "exerciseIncluded": 0,
-    "totalIncludedCount": 50,
+    "totalIncludedCount": 112,
     "endDate": "2016-01-20T00:00:00",
-    "foodCount": 7,
+    "foodCount": 4,
     "exerciseCount": 0,
-    "bolusInsulinIncluded": 0,
+    "bolusInsulinIncluded": 43,
     "offset": 0,
     "foodIncluded": 0,
-    "bloodGlucoseIncluded": 50,
-    "bolusInsulinCount": 422,
-    "bloodGlucoseCount": 828
+    "bloodGlucoseIncluded": 69,
+    "bolusInsulinCount": 59,
+    "bloodGlucoseCount": 69
   }
 }

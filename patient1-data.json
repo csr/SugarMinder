@@ -4,1043 +4,8 @@
       "mealTag": null,
       "cgmCalibration": false,
       "bgValue": {
-        "value": 256,
-        "units": "mg\/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA1BF50D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502215834,
-      "createdDate": 1453502215834,
-      "publishedDate": 1453502215838,
-      "readingDate": "2015-12-14T16:19:00",
-      "deviceType": "METERTYPES_ONETOUCHULTRA2",
-      "deviceSerialNumber": "XXXXXX",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": [
-        
-      ]
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 322,
-        "units": "mg\/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA1BF40D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502215834,
-      "createdDate": 1453502215834,
-      "publishedDate": 1453502215838,
-      "readingDate": "2015-12-14T17:45:00",
-      "deviceType": "METERTYPES_ONETOUCHULTRA2",
-      "deviceSerialNumber": "XXXXXX",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": [
-        
-      ]
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 369,
-        "units": "mg\/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA1BF30D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502215833,
-      "createdDate": 1453502215833,
-      "publishedDate": 1453502215838,
-      "readingDate": "2015-12-14T23:45:00",
-      "deviceType": "METERTYPES_ONETOUCHULTRA2",
-      "deviceSerialNumber": "XXXXXX",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": [
-        
-      ]
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 376,
-        "units": "mg\/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA1BF20D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502215832,
-      "createdDate": 1453502215832,
-      "publishedDate": 1453502215838,
-      "readingDate": "2015-12-15T05:55:00",
-      "deviceType": "METERTYPES_ONETOUCHULTRA2",
-      "deviceSerialNumber": "XXXXXX",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": [
-        
-      ]
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 328,
-        "units": "mg\/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA1BF10D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502215831,
-      "createdDate": 1453502215831,
-      "publishedDate": 1453502215838,
-      "readingDate": "2015-12-15T06:52:00",
-      "deviceType": "METERTYPES_ONETOUCHULTRA2",
-      "deviceSerialNumber": "XXXXXX",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": [
-        
-      ]
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 197,
-        "units": "mg\/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA1BF00D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502215830,
-      "createdDate": 1453502215830,
-      "publishedDate": 1453502215838,
-      "readingDate": "2015-12-15T14:52:00",
-      "deviceType": "METERTYPES_ONETOUCHULTRA2",
-      "deviceSerialNumber": "XXXXXX",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": [
-        
-      ]
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 303,
-        "units": "mg\/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA1BEF0D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502215830,
-      "createdDate": 1453502215830,
-      "publishedDate": 1453502215838,
-      "readingDate": "2015-12-16T05:12:00",
-      "deviceType": "METERTYPES_ONETOUCHULTRA2",
-      "deviceSerialNumber": "XXXXXX",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": [
-        
-      ]
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 342,
-        "units": "mg\/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA1BEE0D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502215829,
-      "createdDate": 1453502215829,
-      "publishedDate": 1453502215838,
-      "readingDate": "2015-12-16T08:48:00",
-      "deviceType": "METERTYPES_ONETOUCHULTRA2",
-      "deviceSerialNumber": "XXXXXX",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": [
-        
-      ]
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 190,
-        "units": "mg\/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA1BED0D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502215828,
-      "createdDate": 1453502215828,
-      "publishedDate": 1453502215838,
-      "readingDate": "2015-12-16T18:28:00",
-      "deviceType": "METERTYPES_ONETOUCHULTRA2",
-      "deviceSerialNumber": "XXXXXX",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": [
-        
-      ]
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 249,
-        "units": "mg\/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA1BEC0D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502215828,
-      "createdDate": 1453502215828,
-      "publishedDate": 1453502215838,
-      "readingDate": "2015-12-17T05:40:00",
-      "deviceType": "METERTYPES_ONETOUCHULTRA2",
-      "deviceSerialNumber": "XXXXXX",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": [
-        
-      ]
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 202,
-        "units": "mg\/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA1BEB0D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502215827,
-      "createdDate": 1453502215827,
-      "publishedDate": 1453502215838,
-      "readingDate": "2015-12-17T18:28:00",
-      "deviceType": "METERTYPES_ONETOUCHULTRA2",
-      "deviceSerialNumber": "XXXXXX",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": [
-        
-      ]
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 317,
-        "units": "mg\/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA1BEA0D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502215826,
-      "createdDate": 1453502215826,
-      "publishedDate": 1453502215838,
-      "readingDate": "2015-12-18T05:12:00",
-      "deviceType": "METERTYPES_ONETOUCHULTRA2",
-      "deviceSerialNumber": "XXXXXX",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": [
-        
-      ]
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 197,
-        "units": "mg\/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA1BE90D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502215825,
-      "createdDate": 1453502215825,
-      "publishedDate": 1453502215838,
-      "readingDate": "2015-12-20T15:36:00",
-      "deviceType": "METERTYPES_ONETOUCHULTRA2",
-      "deviceSerialNumber": "XXXXXX",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": [
-        
-      ]
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 267,
-        "units": "mg\/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA1BE80D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502215824,
-      "createdDate": 1453502215824,
-      "publishedDate": 1453502215838,
-      "readingDate": "2015-12-20T21:50:00",
-      "deviceType": "METERTYPES_ONETOUCHULTRA2",
-      "deviceSerialNumber": "XXXXXX",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": [
-        
-      ]
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 194,
-        "units": "mg\/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA1BE70D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502215824,
-      "createdDate": 1453502215824,
-      "publishedDate": 1453502215838,
-      "readingDate": "2015-12-22T11:45:00",
-      "deviceType": "METERTYPES_ONETOUCHULTRA2",
-      "deviceSerialNumber": "XXXXXX",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": [
-        
-      ]
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 295,
-        "units": "mg\/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA1BE60D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502215823,
-      "createdDate": 1453502215823,
-      "publishedDate": 1453502215838,
-      "readingDate": "2015-12-22T21:36:00",
-      "deviceType": "METERTYPES_ONETOUCHULTRA2",
-      "deviceSerialNumber": "XXXXXX",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": [
-        
-      ]
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 305,
-        "units": "mg\/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA1BE50D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502215822,
-      "createdDate": 1453502215822,
-      "publishedDate": 1453502215838,
-      "readingDate": "2015-12-22T23:31:00",
-      "deviceType": "METERTYPES_ONETOUCHULTRA2",
-      "deviceSerialNumber": "XXXXXX",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": [
-        
-      ]
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 228,
-        "units": "mg\/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA1BE40D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502215821,
-      "createdDate": 1453502215821,
-      "publishedDate": 1453502215838,
-      "readingDate": "2015-12-23T12:00:00",
-      "deviceType": "METERTYPES_ONETOUCHULTRA2",
-      "deviceSerialNumber": "XXXXXX",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": [
-        
-      ]
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 197,
-        "units": "mg\/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA1BE30D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502215820,
-      "createdDate": 1453502215820,
-      "publishedDate": 1453502215838,
-      "readingDate": "2015-12-23T16:04:00",
-      "deviceType": "METERTYPES_ONETOUCHULTRA2",
-      "deviceSerialNumber": "XXXXXX",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": [
-        
-      ]
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 344,
-        "units": "mg\/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA1BE20D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502215820,
-      "createdDate": 1453502215820,
-      "publishedDate": 1453502215838,
-      "readingDate": "2015-12-23T22:48:00",
-      "deviceType": "METERTYPES_ONETOUCHULTRA2",
-      "deviceSerialNumber": "XXXXXX",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": [
-        
-      ]
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 358,
-        "units": "mg\/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA1BE10D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502215819,
-      "createdDate": 1453502215819,
-      "publishedDate": 1453502215838,
-      "readingDate": "2015-12-24T06:38:00",
-      "deviceType": "METERTYPES_ONETOUCHULTRA2",
-      "deviceSerialNumber": "XXXXXX",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": [
-        
-      ]
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 340,
-        "units": "mg\/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA1BE00D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502215818,
-      "createdDate": 1453502215818,
-      "publishedDate": 1453502215838,
-      "readingDate": "2015-12-24T06:43:00",
-      "deviceType": "METERTYPES_ONETOUCHULTRA2",
-      "deviceSerialNumber": "XXXXXX",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": [
-        
-      ]
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 196,
-        "units": "mg\/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA1BDF0D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502215817,
-      "createdDate": 1453502215817,
-      "publishedDate": 1453502215838,
-      "readingDate": "2015-12-24T18:43:00",
-      "deviceType": "METERTYPES_ONETOUCHULTRA2",
-      "deviceSerialNumber": "XXXXXX",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": [
-        
-      ]
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 255,
-        "units": "mg\/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA1BDE0D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502215816,
-      "createdDate": 1453502215816,
-      "publishedDate": 1453502215838,
-      "readingDate": "2015-12-24T22:33:00",
-      "deviceType": "METERTYPES_ONETOUCHULTRA2",
-      "deviceSerialNumber": "XXXXXX",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": [
-        
-      ]
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 188,
-        "units": "mg\/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA1BDD0D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502215815,
-      "createdDate": 1453502215815,
-      "publishedDate": 1453502215838,
-      "readingDate": "2015-12-25T17:45:00",
-      "deviceType": "METERTYPES_ONETOUCHULTRA2",
-      "deviceSerialNumber": "XXXXXX",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": [
-        
-      ]
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 310,
-        "units": "mg\/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA1BDC0D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502215815,
-      "createdDate": 1453502215815,
-      "publishedDate": 1453502215838,
-      "readingDate": "2015-12-25T23:02:00",
-      "deviceType": "METERTYPES_ONETOUCHULTRA2",
-      "deviceSerialNumber": "XXXXXX",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": [
-        
-      ]
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 271,
-        "units": "mg\/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA1BDB0D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502215814,
-      "createdDate": 1453502215814,
-      "publishedDate": 1453502215838,
-      "readingDate": "2015-12-26T06:43:00",
-      "deviceType": "METERTYPES_ONETOUCHULTRA2",
-      "deviceSerialNumber": "XXXXXX",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": [
-        
-      ]
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 278,
-        "units": "mg\/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA1BDA0D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502215813,
-      "createdDate": 1453502215813,
-      "publishedDate": 1453502215838,
-      "readingDate": "2015-12-26T07:50:00",
-      "deviceType": "METERTYPES_ONETOUCHULTRA2",
-      "deviceSerialNumber": "XXXXXX",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": [
-        
-      ]
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 198,
-        "units": "mg\/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA1BD90D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502215813,
-      "createdDate": 1453502215813,
-      "publishedDate": 1453502215838,
-      "readingDate": "2015-12-26T18:28:00",
-      "deviceType": "METERTYPES_ONETOUCHULTRA2",
-      "deviceSerialNumber": "XXXXXX",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": [
-        
-      ]
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 257,
-        "units": "mg\/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA1BD80D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502215812,
-      "createdDate": 1453502215812,
-      "publishedDate": 1453502215838,
-      "readingDate": "2015-12-27T00:28:00",
-      "deviceType": "METERTYPES_ONETOUCHULTRA2",
-      "deviceSerialNumber": "XXXXXX",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": [
-        
-      ]
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 233,
-        "units": "mg\/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA1BD70D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502215811,
-      "createdDate": 1453502215811,
-      "publishedDate": 1453502215838,
-      "readingDate": "2015-12-27T06:43:00",
-      "deviceType": "METERTYPES_ONETOUCHULTRA2",
-      "deviceSerialNumber": "XXXXXX",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": [
-        
-      ]
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 166,
-        "units": "mg\/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA1BD60D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502215810,
-      "createdDate": 1453502215810,
-      "publishedDate": 1453502215838,
-      "readingDate": "2015-12-27T15:07:00",
-      "deviceType": "METERTYPES_ONETOUCHULTRA2",
-      "deviceSerialNumber": "XXXXXX",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": [
-        
-      ]
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 238,
-        "units": "mg\/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA1BD50D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502215809,
-      "createdDate": 1453502215809,
-      "publishedDate": 1453502215838,
-      "readingDate": "2015-12-27T20:09:00",
-      "deviceType": "METERTYPES_ONETOUCHULTRA2",
-      "deviceSerialNumber": "XXXXXX",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": [
-        
-      ]
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 326,
-        "units": "mg\/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA1BD40D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502215809,
-      "createdDate": 1453502215809,
-      "publishedDate": 1453502215838,
-      "readingDate": "2015-12-27T23:16:00",
-      "deviceType": "METERTYPES_ONETOUCHULTRA2",
-      "deviceSerialNumber": "XXXXXX",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": [
-        
-      ]
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 171,
-        "units": "mg\/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA1BD30D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502215808,
-      "createdDate": 1453502215808,
-      "publishedDate": 1453502215838,
-      "readingDate": "2015-12-28T10:19:00",
-      "deviceType": "METERTYPES_ONETOUCHULTRA2",
-      "deviceSerialNumber": "XXXXXX",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": [
-        
-      ]
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 187,
-        "units": "mg\/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA1BD20D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502215807,
-      "createdDate": 1453502215807,
-      "publishedDate": 1453502215838,
-      "readingDate": "2015-12-28T17:45:00",
-      "deviceType": "METERTYPES_ONETOUCHULTRA2",
-      "deviceSerialNumber": "XXXXXX",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": [
-        
-      ]
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 264,
-        "units": "mg\/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA1BD10D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502215806,
-      "createdDate": 1453502215806,
-      "publishedDate": 1453502215838,
-      "readingDate": "2015-12-28T20:24:00",
-      "deviceType": "METERTYPES_ONETOUCHULTRA2",
-      "deviceSerialNumber": "XXXXXX",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": [
-        
-      ]
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 290,
-        "units": "mg\/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA1BD00D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502215805,
-      "createdDate": 1453502215805,
-      "publishedDate": 1453502215838,
-      "readingDate": "2015-12-29T00:00:00",
-      "deviceType": "METERTYPES_ONETOUCHULTRA2",
-      "deviceSerialNumber": "XXXXXX",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": [
-        
-      ]
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 179,
-        "units": "mg\/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA1BCF0D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502215805,
-      "createdDate": 1453502215805,
-      "publishedDate": 1453502215838,
-      "readingDate": "2015-12-29T11:31:00",
-      "deviceType": "METERTYPES_ONETOUCHULTRA2",
-      "deviceSerialNumber": "XXXXXX",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": [
-        
-      ]
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 176,
-        "units": "mg\/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA1BCE0D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502215804,
-      "createdDate": 1453502215804,
-      "publishedDate": 1453502215838,
-      "readingDate": "2015-12-29T18:14:00",
-      "deviceType": "METERTYPES_ONETOUCHULTRA2",
-      "deviceSerialNumber": "XXXXXX",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": [
-        
-      ]
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 263,
-        "units": "mg\/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA1BCD0D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502215803,
-      "createdDate": 1453502215803,
-      "publishedDate": 1453502215838,
-      "readingDate": "2015-12-29T20:52:00",
-      "deviceType": "METERTYPES_ONETOUCHULTRA2",
-      "deviceSerialNumber": "XXXXXX",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": [
-        
-      ]
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 217,
-        "units": "mg\/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA1BCC0D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502215802,
-      "createdDate": 1453502215802,
-      "publishedDate": 1453502215838,
-      "readingDate": "2015-12-30T18:57:00",
-      "deviceType": "METERTYPES_ONETOUCHULTRA2",
-      "deviceSerialNumber": "XXXXXX",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": [
-        
-      ]
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 251,
-        "units": "mg\/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA1BCB0D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502215801,
-      "createdDate": 1453502215801,
-      "publishedDate": 1453502215838,
-      "readingDate": "2015-12-30T22:33:00",
-      "deviceType": "METERTYPES_ONETOUCHULTRA2",
-      "deviceSerialNumber": "XXXXXX",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": [
-        
-      ]
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 195,
-        "units": "mg\/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA1BCA0D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502215801,
-      "createdDate": 1453502215801,
-      "publishedDate": 1453502215838,
-      "readingDate": "2015-12-31T08:48:00",
-      "deviceType": "METERTYPES_ONETOUCHULTRA2",
-      "deviceSerialNumber": "XXXXXX",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": [
-        
-      ]
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
-        "value": 166,
-        "units": "mg\/dL"
-      },
-      "aboveLinearRange": false,
-      "belowLinearRange": false,
-      "id": "29F4CACA1BC90D96E053E7D56A40883E",
-      "lastUpdatedDate": 1453502215800,
-      "createdDate": 1453502215800,
-      "publishedDate": 1453502215838,
-      "readingDate": "2015-12-31T17:45:00",
-      "deviceType": "METERTYPES_ONETOUCHULTRA2",
-      "deviceSerialNumber": "XXXXXX",
-      "edited": false,
-      "editable": false,
-      "manual": false,
-      "annotation": [
-        
-      ]
-    },
-    {
-      "mealTag": null,
-      "cgmCalibration": false,
-      "bgValue": {
         "value": 227,
-        "units": "mg\/dL"
+        "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
@@ -1054,16 +19,14 @@
       "edited": false,
       "editable": false,
       "manual": false,
-      "annotation": [
-        
-      ]
+      "annotation": []
     },
     {
       "mealTag": null,
       "cgmCalibration": false,
       "bgValue": {
         "value": 216,
-        "units": "mg\/dL"
+        "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
@@ -1077,16 +40,14 @@
       "edited": false,
       "editable": false,
       "manual": false,
-      "annotation": [
-        
-      ]
+      "annotation": []
     },
     {
       "mealTag": null,
       "cgmCalibration": false,
       "bgValue": {
         "value": 200,
-        "units": "mg\/dL"
+        "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
@@ -1100,16 +61,14 @@
       "edited": false,
       "editable": false,
       "manual": false,
-      "annotation": [
-        
-      ]
+      "annotation": []
     },
     {
       "mealTag": null,
       "cgmCalibration": false,
       "bgValue": {
         "value": 237,
-        "units": "mg\/dL"
+        "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
@@ -1123,16 +82,14 @@
       "edited": false,
       "editable": false,
       "manual": false,
-      "annotation": [
-        
-      ]
+      "annotation": []
     },
     {
       "mealTag": null,
       "cgmCalibration": false,
       "bgValue": {
         "value": 290,
-        "units": "mg\/dL"
+        "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
@@ -1146,16 +103,14 @@
       "edited": false,
       "editable": false,
       "manual": false,
-      "annotation": [
-        
-      ]
+      "annotation": []
     },
     {
       "mealTag": null,
       "cgmCalibration": false,
       "bgValue": {
         "value": 183,
-        "units": "mg\/dL"
+        "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
@@ -1169,16 +124,14 @@
       "edited": false,
       "editable": false,
       "manual": false,
-      "annotation": [
-        
-      ]
+      "annotation": []
     },
     {
       "mealTag": null,
       "cgmCalibration": false,
       "bgValue": {
         "value": 307,
-        "units": "mg\/dL"
+        "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
@@ -1192,16 +145,14 @@
       "edited": false,
       "editable": false,
       "manual": false,
-      "annotation": [
-        
-      ]
+      "annotation": []
     },
     {
       "mealTag": null,
       "cgmCalibration": false,
       "bgValue": {
         "value": 334,
-        "units": "mg\/dL"
+        "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
@@ -1215,16 +166,14 @@
       "edited": false,
       "editable": false,
       "manual": false,
-      "annotation": [
-        
-      ]
+      "annotation": []
     },
     {
       "mealTag": null,
       "cgmCalibration": false,
       "bgValue": {
         "value": 161,
-        "units": "mg\/dL"
+        "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
@@ -1238,16 +187,14 @@
       "edited": false,
       "editable": false,
       "manual": false,
-      "annotation": [
-        
-      ]
+      "annotation": []
     },
     {
       "mealTag": null,
       "cgmCalibration": false,
       "bgValue": {
         "value": 269,
-        "units": "mg\/dL"
+        "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
@@ -1261,16 +208,14 @@
       "edited": false,
       "editable": false,
       "manual": false,
-      "annotation": [
-        
-      ]
+      "annotation": []
     },
     {
       "mealTag": null,
       "cgmCalibration": false,
       "bgValue": {
         "value": 287,
-        "units": "mg\/dL"
+        "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
@@ -1284,16 +229,14 @@
       "edited": false,
       "editable": false,
       "manual": false,
-      "annotation": [
-        
-      ]
+      "annotation": []
     },
     {
       "mealTag": null,
       "cgmCalibration": false,
       "bgValue": {
         "value": 164,
-        "units": "mg\/dL"
+        "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
@@ -1307,16 +250,14 @@
       "edited": false,
       "editable": false,
       "manual": false,
-      "annotation": [
-        
-      ]
+      "annotation": []
     },
     {
       "mealTag": null,
       "cgmCalibration": false,
       "bgValue": {
         "value": 184,
-        "units": "mg\/dL"
+        "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
@@ -1330,16 +271,14 @@
       "edited": false,
       "editable": false,
       "manual": false,
-      "annotation": [
-        
-      ]
+      "annotation": []
     },
     {
       "mealTag": null,
       "cgmCalibration": false,
       "bgValue": {
         "value": 153,
-        "units": "mg\/dL"
+        "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
@@ -1353,16 +292,14 @@
       "edited": false,
       "editable": false,
       "manual": false,
-      "annotation": [
-        
-      ]
+      "annotation": []
     },
     {
       "mealTag": null,
       "cgmCalibration": false,
       "bgValue": {
         "value": 167,
-        "units": "mg\/dL"
+        "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
@@ -1376,16 +313,14 @@
       "edited": false,
       "editable": false,
       "manual": false,
-      "annotation": [
-        
-      ]
+      "annotation": []
     },
     {
       "mealTag": null,
       "cgmCalibration": false,
       "bgValue": {
         "value": 213,
-        "units": "mg\/dL"
+        "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
@@ -1399,16 +334,14 @@
       "edited": false,
       "editable": false,
       "manual": false,
-      "annotation": [
-        
-      ]
+      "annotation": []
     },
     {
       "mealTag": null,
       "cgmCalibration": false,
       "bgValue": {
         "value": 131,
-        "units": "mg\/dL"
+        "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
@@ -1422,16 +355,14 @@
       "edited": false,
       "editable": false,
       "manual": false,
-      "annotation": [
-        
-      ]
+      "annotation": []
     },
     {
       "mealTag": null,
       "cgmCalibration": false,
       "bgValue": {
         "value": 178,
-        "units": "mg\/dL"
+        "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
@@ -1445,16 +376,14 @@
       "edited": false,
       "editable": false,
       "manual": false,
-      "annotation": [
-        
-      ]
+      "annotation": []
     },
     {
       "mealTag": null,
       "cgmCalibration": false,
       "bgValue": {
         "value": 218,
-        "units": "mg\/dL"
+        "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
@@ -1468,16 +397,14 @@
       "edited": false,
       "editable": false,
       "manual": false,
-      "annotation": [
-        
-      ]
+      "annotation": []
     },
     {
       "mealTag": null,
       "cgmCalibration": false,
       "bgValue": {
         "value": 150,
-        "units": "mg\/dL"
+        "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
@@ -1491,16 +418,14 @@
       "edited": false,
       "editable": false,
       "manual": false,
-      "annotation": [
-        
-      ]
+      "annotation": []
     },
     {
       "mealTag": null,
       "cgmCalibration": false,
       "bgValue": {
         "value": 229,
-        "units": "mg\/dL"
+        "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
@@ -1514,16 +439,14 @@
       "edited": false,
       "editable": false,
       "manual": false,
-      "annotation": [
-        
-      ]
+      "annotation": []
     },
     {
       "mealTag": null,
       "cgmCalibration": false,
       "bgValue": {
         "value": 135,
-        "units": "mg\/dL"
+        "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
@@ -1537,16 +460,14 @@
       "edited": false,
       "editable": false,
       "manual": false,
-      "annotation": [
-        
-      ]
+      "annotation": []
     },
     {
       "mealTag": null,
       "cgmCalibration": false,
       "bgValue": {
         "value": 190,
-        "units": "mg\/dL"
+        "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
@@ -1560,16 +481,14 @@
       "edited": false,
       "editable": false,
       "manual": false,
-      "annotation": [
-        
-      ]
+      "annotation": []
     },
     {
       "mealTag": null,
       "cgmCalibration": false,
       "bgValue": {
         "value": 209,
-        "units": "mg\/dL"
+        "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
@@ -1583,16 +502,14 @@
       "edited": false,
       "editable": false,
       "manual": false,
-      "annotation": [
-        
-      ]
+      "annotation": []
     },
     {
       "mealTag": null,
       "cgmCalibration": false,
       "bgValue": {
         "value": 148,
-        "units": "mg\/dL"
+        "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
@@ -1606,16 +523,14 @@
       "edited": false,
       "editable": false,
       "manual": false,
-      "annotation": [
-        
-      ]
+      "annotation": []
     },
     {
       "mealTag": null,
       "cgmCalibration": false,
       "bgValue": {
         "value": 213,
-        "units": "mg\/dL"
+        "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
@@ -1629,16 +544,14 @@
       "edited": false,
       "editable": false,
       "manual": false,
-      "annotation": [
-        
-      ]
+      "annotation": []
     },
     {
       "mealTag": null,
       "cgmCalibration": false,
       "bgValue": {
         "value": 235,
-        "units": "mg\/dL"
+        "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
@@ -1652,16 +565,14 @@
       "edited": false,
       "editable": false,
       "manual": false,
-      "annotation": [
-        
-      ]
+      "annotation": []
     },
     {
       "mealTag": null,
       "cgmCalibration": false,
       "bgValue": {
         "value": 142,
-        "units": "mg\/dL"
+        "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
@@ -1675,16 +586,14 @@
       "edited": false,
       "editable": false,
       "manual": false,
-      "annotation": [
-        
-      ]
+      "annotation": []
     },
     {
       "mealTag": null,
       "cgmCalibration": false,
       "bgValue": {
         "value": 257,
-        "units": "mg\/dL"
+        "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
@@ -1698,16 +607,14 @@
       "edited": false,
       "editable": false,
       "manual": false,
-      "annotation": [
-        
-      ]
+      "annotation": []
     },
     {
       "mealTag": null,
       "cgmCalibration": false,
       "bgValue": {
         "value": 136,
-        "units": "mg\/dL"
+        "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
@@ -1721,16 +628,14 @@
       "edited": false,
       "editable": false,
       "manual": false,
-      "annotation": [
-        
-      ]
+      "annotation": []
     },
     {
       "mealTag": null,
       "cgmCalibration": false,
       "bgValue": {
         "value": 225,
-        "units": "mg\/dL"
+        "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
@@ -1744,16 +649,14 @@
       "edited": false,
       "editable": false,
       "manual": false,
-      "annotation": [
-        
-      ]
+      "annotation": []
     },
     {
       "mealTag": null,
       "cgmCalibration": false,
       "bgValue": {
         "value": 280,
-        "units": "mg\/dL"
+        "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
@@ -1767,16 +670,14 @@
       "edited": false,
       "editable": false,
       "manual": false,
-      "annotation": [
-        
-      ]
+      "annotation": []
     },
     {
       "mealTag": null,
       "cgmCalibration": false,
       "bgValue": {
         "value": 163,
-        "units": "mg\/dL"
+        "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
@@ -1790,16 +691,14 @@
       "edited": false,
       "editable": false,
       "manual": false,
-      "annotation": [
-        
-      ]
+      "annotation": []
     },
     {
       "mealTag": null,
       "cgmCalibration": false,
       "bgValue": {
         "value": 230,
-        "units": "mg\/dL"
+        "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
@@ -1813,16 +712,14 @@
       "edited": false,
       "editable": false,
       "manual": false,
-      "annotation": [
-        
-      ]
+      "annotation": []
     },
     {
       "mealTag": null,
       "cgmCalibration": false,
       "bgValue": {
         "value": 254,
-        "units": "mg\/dL"
+        "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
@@ -1836,16 +733,14 @@
       "edited": false,
       "editable": false,
       "manual": false,
-      "annotation": [
-        
-      ]
+      "annotation": []
     },
     {
       "mealTag": null,
       "cgmCalibration": false,
       "bgValue": {
         "value": 236,
-        "units": "mg\/dL"
+        "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
@@ -1859,16 +754,14 @@
       "edited": false,
       "editable": false,
       "manual": false,
-      "annotation": [
-        
-      ]
+      "annotation": []
     },
     {
       "mealTag": null,
       "cgmCalibration": false,
       "bgValue": {
         "value": 188,
-        "units": "mg\/dL"
+        "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
@@ -1882,16 +775,14 @@
       "edited": false,
       "editable": false,
       "manual": false,
-      "annotation": [
-        
-      ]
+      "annotation": []
     },
     {
       "mealTag": null,
       "cgmCalibration": false,
       "bgValue": {
         "value": 212,
-        "units": "mg\/dL"
+        "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
@@ -1905,16 +796,14 @@
       "edited": false,
       "editable": false,
       "manual": false,
-      "annotation": [
-        
-      ]
+      "annotation": []
     },
     {
       "mealTag": null,
       "cgmCalibration": false,
       "bgValue": {
         "value": 149,
-        "units": "mg\/dL"
+        "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
@@ -1928,16 +817,14 @@
       "edited": false,
       "editable": false,
       "manual": false,
-      "annotation": [
-        
-      ]
+      "annotation": []
     },
     {
       "mealTag": null,
       "cgmCalibration": false,
       "bgValue": {
         "value": 228,
-        "units": "mg\/dL"
+        "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
@@ -1951,16 +838,14 @@
       "edited": false,
       "editable": false,
       "manual": false,
-      "annotation": [
-        
-      ]
+      "annotation": []
     },
     {
       "mealTag": null,
       "cgmCalibration": false,
       "bgValue": {
         "value": 211,
-        "units": "mg\/dL"
+        "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
@@ -1974,16 +859,14 @@
       "edited": false,
       "editable": false,
       "manual": false,
-      "annotation": [
-        
-      ]
+      "annotation": []
     },
     {
       "mealTag": null,
       "cgmCalibration": false,
       "bgValue": {
         "value": 120,
-        "units": "mg\/dL"
+        "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
@@ -1997,16 +880,14 @@
       "edited": false,
       "editable": false,
       "manual": false,
-      "annotation": [
-        
-      ]
+      "annotation": []
     },
     {
       "mealTag": null,
       "cgmCalibration": false,
       "bgValue": {
         "value": 140,
-        "units": "mg\/dL"
+        "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
@@ -2020,16 +901,14 @@
       "edited": false,
       "editable": false,
       "manual": false,
-      "annotation": [
-        
-      ]
+      "annotation": []
     },
     {
       "mealTag": null,
       "cgmCalibration": false,
       "bgValue": {
         "value": 147,
-        "units": "mg\/dL"
+        "units": "mg/dL"
       },
       "aboveLinearRange": false,
       "belowLinearRange": false,
@@ -2043,34 +922,26 @@
       "edited": false,
       "editable": false,
       "manual": false,
-      "annotation": [
-        
-      ]
+      "annotation": []
     }
   ],
-  "food": [
-    
-  ],
-  "exercise": [
-    
-  ],
-  "bolusInsulin": [
-    
-  ],
+  "food": [],
+  "exercise": [],
+  "bolusInsulin": [],
   "meta": {
-    "limit": 350,
-    "startDate": "2015-06-01T00:00:00",
-    "totalCount": 89,
+    "limit": 112,
+    "startDate": "2016-01-01T00:00:00",
+    "totalCount": 44,
     "exerciseIncluded": 0,
-    "totalIncludedCount": 89,
+    "totalIncludedCount": 44,
     "endDate": "2016-01-20T00:00:00",
     "foodCount": 0,
     "exerciseCount": 0,
     "bolusInsulinIncluded": 0,
     "offset": 0,
     "foodIncluded": 0,
-    "bloodGlucoseIncluded": 89,
+    "bloodGlucoseIncluded": 44,
     "bolusInsulinCount": 0,
-    "bloodGlucoseCount": 89
+    "bloodGlucoseCount": 44
   }
 }
