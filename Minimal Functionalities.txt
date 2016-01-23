@@ -1,0 +1,33 @@
+Minimal Functionalities
+
+Goal: Log the blood sugar data. Give incentives to people for doing so.
+
+Log:
+1. Insulin
+2. Food intake
+3. Exercise
+
+When the user puts in data, he/she will get points in order to gain levels
+
+Incentives:
+Buy fishes / fishes can move around
+
+Notifications
+
+Time to measure your blood sugar!
+
+
+----------------------------
+
+Aquarium - Feed Your Fish
+
+1. Add health bar, point system, levels
+2. Add notifications (fish is hungry)
+3. Reading gives the food for fish
+4. The store will have skins, fishes, etc
+5. bubble for tips
+
+Every 10 levels, J & J will provide a prize (sample, coupon, etc)
+
+--------- Schedule -------------
+

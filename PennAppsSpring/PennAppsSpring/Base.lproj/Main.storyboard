@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15C47a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PennAppsSpring" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +17,99 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="backgroundIsland" translatesAutoresizingMaskIntoConstraints="NO" id="Bjs-nk-P9G">
+                                <rect key="frame" x="-82" y="59" width="799" height="600"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.52941176470588236" green="0.7803921568627451" blue="0.74117647058823533" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Bjs-nk-P9G" secondAttribute="height" multiplier="341:256" id="EVw-4h-VcQ"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="sZF-Do-9ue" appends="YES" id="WY4-nU-ghe"/>
+                                </connections>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uFp-Oy-5jX">
+                                <rect key="frame" x="-3" y="42" width="100" height="86"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lMm-PE-i11">
+                                <rect key="frame" x="-14" y="-98" width="60" height="47"/>
+                                <animations/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="68567" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g0q-lb-evC">
+                                <rect key="frame" x="25" y="40.5" width="97" height="38.5"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="33"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="t8v-cs-y4Z">
+                                <rect key="frame" x="275" y="275" width="50" height="50"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="5eL-8P-I00"/>
+                                    <constraint firstAttribute="width" constant="50" id="V1S-eo-ycy"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uxQ-q7-YsP">
+                                <rect key="frame" x="150" y="50" width="300" height="500"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="500" id="7f2-hH-Ci5"/>
+                                    <constraint firstAttribute="width" constant="300" id="KKF-hh-UUo"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="uxQ-q7-YsP" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="6hk-Ne-w8a"/>
+                            <constraint firstItem="uxQ-q7-YsP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="E5j-3E-AJQ"/>
+                            <constraint firstItem="g0q-lb-evC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="25" id="FfE-5g-2rz"/>
+                            <constraint firstItem="Bjs-nk-P9G" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="P3N-1H-iiy"/>
+                            <constraint firstAttribute="trailing" secondItem="Bjs-nk-P9G" secondAttribute="trailing" id="SAP-IJ-9ct"/>
+                            <constraint firstItem="Bjs-nk-P9G" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="YCW-9u-hB7"/>
+                            <constraint firstItem="Bjs-nk-P9G" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="YHw-Ns-nzd"/>
+                            <constraint firstItem="Bjs-nk-P9G" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="mco-gh-m7d"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Bjs-nk-P9G" secondAttribute="bottom" id="n06-Y3-ysn"/>
+                            <constraint firstItem="Bjs-nk-P9G" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="t8k-Ef-EKn"/>
+                            <constraint firstItem="g0q-lb-evC" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="u3s-vC-N70"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="P3N-1H-iiy"/>
+                                <exclude reference="SAP-IJ-9ct"/>
+                                <exclude reference="YHw-Ns-nzd"/>
+                                <exclude reference="t8k-Ef-EKn"/>
+                                <exclude reference="n06-Y3-ysn"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="backgroundImage" destination="Bjs-nk-P9G" id="ymT-lI-suK"/>
+                        <outlet property="labelCoins" destination="g0q-lb-evC" id="ZbV-nI-Tpj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="sZF-Do-9ue">
+                    <connections>
+                        <action selector="imageIsPressed:" destination="BYZ-38-t0r" id="zNA-Fq-UUQ"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
+            <point key="canvasLocation" x="244" y="281"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="backgroundIsland" width="1024" height="768"/>
+        <image name="star" width="60" height="59"/>
+    </resources>
 </document>
