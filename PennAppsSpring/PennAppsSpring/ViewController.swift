@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var labelCoins: UILabel!
     @IBOutlet weak var viewStore: UIView!
     
+    
     let screenSize: CGRect = UIScreen.mainScreen().bounds
     var coins = 0
     
@@ -40,6 +41,9 @@ class ViewController: UIViewController {
         let userDefaults = NSUserDefaults.standardUserDefaults()
         userDefaults.setValue(coins, forKey: "coins")
         userDefaults.synchronize()
+    }
+    @IBAction func showStoreMenu(sender: AnyObject) {
+        viewStore.hidden = false
     }
     
     override func preferredStatusBarStyle() -> UIStatusBarStyle {
