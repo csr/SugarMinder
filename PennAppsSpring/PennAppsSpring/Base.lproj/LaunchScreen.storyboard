@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,8 +17,31 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="backgroundIsland" translatesAutoresizingMaskIntoConstraints="NO" id="cm4-mJ-9mA">
+                                <rect key="frame" x="0.0" y="65" width="600" height="580"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="cm4-mJ-9mA" secondAttribute="height" multiplier="341:256" id="3Fs-2w-4M1"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cm4-mJ-9mA" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="EmX-n1-WJU"/>
+                            <constraint firstAttribute="trailing" secondItem="cm4-mJ-9mA" secondAttribute="trailing" id="uYF-6g-XHb"/>
+                            <constraint firstItem="cm4-mJ-9mA" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="yyO-3W-jfb"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="cm4-mJ-9mA" secondAttribute="bottom" id="zC5-4L-Ek4"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="EmX-n1-WJU"/>
+                                <exclude reference="uYF-6g-XHb"/>
+                                <exclude reference="yyO-3W-jfb"/>
+                                <exclude reference="zC5-4L-Ek4"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -25,4 +49,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="backgroundIsland" width="1024" height="768"/>
+    </resources>
 </document>
