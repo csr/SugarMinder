@@ -64,7 +64,11 @@ class ViewController: UIViewController {
             let randomYOffset = CGFloat(arc4random_uniform(200))
             let randomDuration = CGFloat(arc4random_uniform(30)) + 10
 
-            fish.frame = CGRect(x: view.bounds.width+150+randomXOffset, y: view.bounds.height-100+randomYOffset, width: randomWidth, height: randomWidth)
+            if fishName == "fishInsulin" {
+                fish.frame = CGRect(x: view.bounds.width+150+randomXOffset, y: view.bounds.height-100+randomYOffset, width: randomWidth, height: randomWidth)
+            } else {
+                fish.frame = CGRect(x: view.bounds.width+150+randomXOffset, y: view.bounds.height-100+randomYOffset, width: randomWidth+70, height: randomWidth+70)
+            }
             view.addSubview(fish)
             
             let path = UIBezierPath()
@@ -76,7 +80,11 @@ class ViewController: UIViewController {
             anim.path = path.CGPath
             anim.rotationMode = kCAAnimationRotateAutoReverse
             anim.repeatCount = Float.infinity
-            anim.duration = CFTimeInterval(randomDuration)
+            if fishName == "fishInsulin" {
+                anim.duration = CFTimeInterval(randomDuration)
+            } else {
+                anim.duration = 8
+            }
             // add the animation
             fish.layer.addAnimation(anim, forKey: "animate position along path")
         }
@@ -128,6 +136,7 @@ class ViewController: UIViewController {
     
     @IBAction func pressOnTestOnSugarLevels(sender: AnyObject) {
         fishName = "fishInsulinHungry"
+        animateFish()
     }
     
     @IBAction func pressOnSettings(sender: AnyObject) {
