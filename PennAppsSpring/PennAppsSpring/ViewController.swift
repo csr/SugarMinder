@@ -83,7 +83,7 @@ class ViewController: UIViewController {
     }
     
     func animateWaterBubbles() {
-        for i in 0...50 {
+        for _ in 0...50 {
             let bubble1 = UIImageView()
             bubble1.image = UIImage(named: "bubble")
             let randomXOffset = CGFloat(arc4random_uniform(400))
@@ -136,6 +136,7 @@ class ViewController: UIViewController {
     
     @IBAction func pressOnCancel(sender: AnyObject) {
         viewStore.hidden = true
+        viewSettings.hidden = true
     }
 }
 
