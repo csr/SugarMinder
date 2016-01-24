@@ -94,7 +94,7 @@ class ViewController: UIViewController {
             
             let path = UIBezierPath()
             path.moveToPoint(CGPoint(x: view.bounds.size.width/3-randomXOffset, y: view.bounds.size.height - 100))
-            path.addCurveToPoint(CGPoint(x: view.bounds.size.width/3+50-randomXOffset, y: view.bounds.size.height - randomYOffset), controlPoint1: CGPoint(x: 136-randomXOffset, y: view.bounds.size.height - randomYOffset), controlPoint2: CGPoint(x: 136-randomXOffset, y: view.bounds.size.height - randomYOffset - 100))
+            path.addCurveToPoint(CGPoint(x: view.bounds.size.width/3+50-randomXOffset, y: view.bounds.size.height - randomYOffset), controlPoint1: CGPoint(x: 136-randomXOffset, y: view.bounds.size.height - randomYOffset), controlPoint2: CGPoint(x: 136-randomXOffset + randomYOffset, y: view.bounds.size.height - randomYOffset - 100 - randomXOffset))
             
             // create the animation
             let anim = CAKeyframeAnimation(keyPath: "position")
@@ -115,6 +115,8 @@ class ViewController: UIViewController {
     @IBAction func hasStepperValueChanged(sender: UIStepper) {
         labelNumberOfFishesSelected.text = "Currently \(Int(sender.value)) fishes"
         animateFish()
+        coins -= 100
+        labelCoins.text = "\(coins)"
     }
     
     
