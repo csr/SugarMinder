@@ -14,3 +14,12 @@ body {
   background: -webkit-linear-gradient(left, #0198E1, #B9D3EE);
   font-family: Helvetica, Tahoma, Serif, Arial;
 }
+
+button{
+    height:40px; 
+    width:100px; 
+    margin: 20px 0px; 
+    position:relative;
+    top:50%; 
+    left:40%;
+}
