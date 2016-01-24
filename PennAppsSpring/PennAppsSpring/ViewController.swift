@@ -14,8 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var labelCoins: UILabel!
     @IBOutlet weak var viewStore: UIView!
     @IBOutlet weak var stepperFishes: UIStepper!
-    
-    let screenSize: CGRect = UIScreen.mainScreen().bounds
+        let screenSize: CGRect = UIScreen.mainScreen().bounds
     var coins = 0
     var numberOfFishes = 1
     
@@ -54,7 +53,7 @@ class ViewController: UIViewController {
     }
     
     func animateFish() {
-        for i in 0...numberOfFishes {
+        for i in 1...numberOfFishes {
             let fish = UIImageView(image: UIImage(named: "fishInsulin"))
             let randomWidth = CGFloat(arc4random_uniform(100))
             let randomXOffset = CGFloat(arc4random_uniform(200))
@@ -111,9 +110,13 @@ class ViewController: UIViewController {
         stepperFishes.minimumValue = 1
         stepperFishes.maximumValue = 10
     }
-    
+        
     @IBAction func hasStepperValueChanged(sender: UIStepper) {
-        labelNumberOfFishesSelected.text = "Currently \(Int(sender.value)) fishes"
+        if Int(sender.value) < 1 {
+            labelNumberOfFishesSelected.text = "Currently \(Int(sender.value)) fish"
+        } else {
+            labelNumberOfFishesSelected.text = "Currently \(Int(sender.value)) fishes"
+        }
         animateFish()
         coins -= 100
         labelCoins.text = "\(coins)"
