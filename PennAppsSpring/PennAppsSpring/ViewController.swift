@@ -17,12 +17,16 @@ class ViewController: UIViewController {
         let screenSize: CGRect = UIScreen.mainScreen().bounds
     var coins = 0
     var numberOfFishes = 1
+    var fishName = "fishInsulin"
+    
+    @IBOutlet weak var viewSettings: UIView!
     
     @IBOutlet weak var labelNumberOfFishesSelected: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         
         viewStore.hidden = true
+        viewSettings.hidden = true
         let userDefaults = NSUserDefaults.standardUserDefaults()
         if let myCoins = userDefaults.valueForKey("coins") {
             coins = Int(myCoins as! NSNumber)
@@ -54,7 +58,7 @@ class ViewController: UIViewController {
     
     func animateFish() {
         for i in 1...numberOfFishes {
-            let fish = UIImageView(image: UIImage(named: "fishInsulin"))
+            let fish = UIImageView(image: UIImage(named: fishName))
             let randomWidth = CGFloat(arc4random_uniform(100))
             let randomXOffset = CGFloat(arc4random_uniform(200))
             let randomYOffset = CGFloat(arc4random_uniform(200))
@@ -65,7 +69,7 @@ class ViewController: UIViewController {
             
             let path = UIBezierPath()
             path.moveToPoint(CGPoint(x: view.bounds.width + 50 + randomXOffset, y: view.bounds.size.height - 100 - randomYOffset))
-            path.addCurveToPoint(CGPoint(x: -50, y: view.bounds.size.height-100), controlPoint1: CGPoint(x: view.bounds.width + 50, y: view.bounds.size.height - 300), controlPoint2: CGPoint(x: view.bounds.size.width/2, y: view.bounds.size.height - 100))
+            path.addCurveToPoint(CGPoint(x: -50, y: view.bounds.size.height-100), controlPoint1: CGPoint(x: view.bounds.width + 50, y: view.bounds.size.height - 300), controlPoint2: CGPoint(x: view.bounds.size.width/2+randomYOffset, y: view.bounds.size.height - 100))
             
             // create the animation
             let anim = CAKeyframeAnimation(keyPath: "position")
@@ -122,6 +126,13 @@ class ViewController: UIViewController {
         labelCoins.text = "\(coins)"
     }
     
+    @IBAction func pressOnTestOnSugarLevels(sender: AnyObject) {
+        fishName = "fishInsulinHungry"
+    }
+    
+    @IBAction func pressOnSettings(sender: AnyObject) {
+        viewSettings.hidden = false
+    }
     
     @IBAction func pressOnCancel(sender: AnyObject) {
         viewStore.hidden = true
