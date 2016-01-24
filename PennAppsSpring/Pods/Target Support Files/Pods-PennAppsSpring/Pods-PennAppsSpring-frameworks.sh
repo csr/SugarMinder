@@ -87,9 +87,11 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-PennAppsSpring/Bolts.framework"
   install_framework "Pods-PennAppsSpring/Charts.framework"
   install_framework "Pods-PennAppsSpring/Parse.framework"
+  install_framework "Pods-PennAppsSpring/SwiftyJSON.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-PennAppsSpring/Bolts.framework"
   install_framework "Pods-PennAppsSpring/Charts.framework"
   install_framework "Pods-PennAppsSpring/Parse.framework"
+  install_framework "Pods-PennAppsSpring/SwiftyJSON.framework"
 fi

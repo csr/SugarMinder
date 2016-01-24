@@ -6,6 +6,7 @@
 target 'PennAppsSpring' do
     pod ‘Charts’
     pod ‘Parse’
+    pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'
 end
 
 target 'PennAppsSpringTests' do
