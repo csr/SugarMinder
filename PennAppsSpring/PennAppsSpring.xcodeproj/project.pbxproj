@@ -15,6 +15,7 @@
 		1D7984741C5322570030A027 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D7984721C5322570030A027 /* LaunchScreen.storyboard */; };
 		1D79847F1C5322570030A027 /* PennAppsSpringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D79847E1C5322570030A027 /* PennAppsSpringTests.swift */; };
 		1D79848A1C5322570030A027 /* PennAppsSpringUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7984891C5322570030A027 /* PennAppsSpringUITests.swift */; };
+		20313132ADC4CF67279437BC /* Pods_PennAppsSpring.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADDA828F45ADCE6FDD275CE4 /* Pods_PennAppsSpring.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,9 @@
 		1D7984851C5322570030A027 /* PennAppsSpringUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PennAppsSpringUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D7984891C5322570030A027 /* PennAppsSpringUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PennAppsSpringUITests.swift; sourceTree = "<group>"; };
 		1D79848B1C5322570030A027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A200D4CE1118BE92EAF9D49 /* Pods-PennAppsSpring.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PennAppsSpring.release.xcconfig"; path = "Pods/Target Support Files/Pods-PennAppsSpring/Pods-PennAppsSpring.release.xcconfig"; sourceTree = "<group>"; };
+		ADDA828F45ADCE6FDD275CE4 /* Pods_PennAppsSpring.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PennAppsSpring.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C312F82B3802E83DCFA8175A /* Pods-PennAppsSpring.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PennAppsSpring.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PennAppsSpring/Pods-PennAppsSpring.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20313132ADC4CF67279437BC /* Pods_PennAppsSpring.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +88,8 @@
 				1D79847D1C5322570030A027 /* PennAppsSpringTests */,
 				1D7984881C5322570030A027 /* PennAppsSpringUITests */,
 				1D7984641C5322560030A027 /* Products */,
+				26BBD121F49691C9C8B7E671 /* Pods */,
+				AA5F54BCFAFB25144E98138E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +135,23 @@
 			path = PennAppsSpringUITests;
 			sourceTree = "<group>";
 		};
+		26BBD121F49691C9C8B7E671 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C312F82B3802E83DCFA8175A /* Pods-PennAppsSpring.debug.xcconfig */,
+				9A200D4CE1118BE92EAF9D49 /* Pods-PennAppsSpring.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AA5F54BCFAFB25144E98138E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADDA828F45ADCE6FDD275CE4 /* Pods_PennAppsSpring.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D79848E1C5322570030A027 /* Build configuration list for PBXNativeTarget "PennAppsSpring" */;
 			buildPhases = (
+				632689EA002809FCD40D94CD /* Check Pods Manifest.lock */,
 				1D79845F1C5322560030A027 /* Sources */,
 				1D7984601C5322560030A027 /* Frameworks */,
 				1D7984611C5322560030A027 /* Resources */,
+				857B09880F6B246687CCC1A6 /* Embed Pods Frameworks */,
+				8D242C9795ABB1E6657B68D2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +280,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		632689EA002809FCD40D94CD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		857B09880F6B246687CCC1A6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PennAppsSpring/Pods-PennAppsSpring-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D242C9795ABB1E6657B68D2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PennAppsSpring/Pods-PennAppsSpring-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1D79845F1C5322560030A027 /* Sources */ = {
@@ -401,6 +476,7 @@
 		};
 		1D79848F1C5322570030A027 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C312F82B3802E83DCFA8175A /* Pods-PennAppsSpring.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PennAppsSpring/Info.plist;
@@ -413,6 +489,7 @@
 		};
 		1D7984901C5322570030A027 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A200D4CE1118BE92EAF9D49 /* Pods-PennAppsSpring.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PennAppsSpring/Info.plist;
