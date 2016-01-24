@@ -20,19 +20,9 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="t8v-cs-y4Z">
                                 <rect key="frame" x="139" y="33" width="50" height="50"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="5eL-8P-I00"/>
-                                    <constraint firstAttribute="width" constant="50" id="V1S-eo-ycy"/>
-                                </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="68567" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g0q-lb-evC">
-                                <rect key="frame" x="25" y="40" width="97" height="39"/>
-                                <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="33"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="backgroundIsland" translatesAutoresizingMaskIntoConstraints="NO" id="Bjs-nk-P9G">
-                                <rect key="frame" x="-79" y="125" width="799" height="600"/>
+                                <rect key="frame" x="-82" y="59" width="799" height="600"/>
+                                <animations/>
                                 <color key="backgroundColor" red="0.52941176470588236" green="0.7803921568627451" blue="0.74117647058823533" alpha="1" colorSpace="calibratedRGB"/>
                                 <gestureRecognizers/>
                                 <constraints>
@@ -42,12 +32,54 @@
                                     <outletCollection property="gestureRecognizers" destination="sZF-Do-9ue" appends="YES" id="WY4-nU-ghe"/>
                                 </connections>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uFp-Oy-5jX">
+                                <rect key="frame" x="-3" y="42" width="100" height="86"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lMm-PE-i11">
+                                <rect key="frame" x="-14" y="-98" width="60" height="47"/>
+                                <animations/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="68567" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g0q-lb-evC">
+                                <rect key="frame" x="25" y="40" width="97" height="39"/>
+                                <rect key="frame" x="25" y="40.5" width="97" height="38.5"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="33"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="backgroundIsland" translatesAutoresizingMaskIntoConstraints="NO" id="Bjs-nk-P9G">
+                                <rect key="frame" x="-79" y="125" width="799" height="600"/>
+                                <color key="backgroundColor" red="0.52941176470588236" green="0.7803921568627451" blue="0.74117647058823533" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="t8v-cs-y4Z">
+                                <rect key="frame" x="275" y="275" width="50" height="50"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="5eL-8P-I00"/>
+                                    <constraint firstAttribute="width" constant="50" id="V1S-eo-ycy"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uxQ-q7-YsP">
+                                <rect key="frame" x="150" y="50" width="300" height="500"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="500" id="7f2-hH-Ci5"/>
+                                    <constraint firstAttribute="width" constant="300" id="KKF-hh-UUo"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="t8v-cs-y4Z" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="13" id="FKq-JK-fKw"/>
+                            <constraint firstItem="uxQ-q7-YsP" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="6hk-Ne-w8a"/>
+                            <constraint firstItem="uxQ-q7-YsP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="E5j-3E-AJQ"/>
                             <constraint firstItem="g0q-lb-evC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="25" id="FfE-5g-2rz"/>
-                            <constraint firstItem="t8v-cs-y4Z" firstAttribute="leading" secondItem="g0q-lb-evC" secondAttribute="trailing" constant="17" id="Iwi-Ej-XuX"/>
                             <constraint firstItem="Bjs-nk-P9G" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="P3N-1H-iiy"/>
                             <constraint firstAttribute="trailing" secondItem="Bjs-nk-P9G" secondAttribute="trailing" id="SAP-IJ-9ct"/>
                             <constraint firstItem="Bjs-nk-P9G" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="YCW-9u-hB7"/>
@@ -79,7 +111,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="194" y="265"/>
+            <point key="canvasLocation" x="244" y="281"/>
         </scene>
     </scenes>
     <resources>

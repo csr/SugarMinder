@@ -15,3 +15,19 @@ Buy fishes / fishes can move around
 Notifications
 
 Time to measure your blood sugar!
+
+
+----------------------------
+
+Aquarium - Feed Your Fish
+
+1. Add health bar, point system, levels
+2. Add notifications (fish is hungry)
+3. Reading gives the food for fish
+4. The store will have skins, fishes, etc
+5. bubble for tips
+
+Every 10 levels, J & J will provide a prize (sample, coupon, etc)
+
+--------- Schedule -------------
+
