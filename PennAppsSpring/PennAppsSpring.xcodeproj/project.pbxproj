@@ -16,6 +16,7 @@
 		1D79847F1C5322570030A027 /* PennAppsSpringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D79847E1C5322570030A027 /* PennAppsSpringTests.swift */; };
 		1D79848A1C5322570030A027 /* PennAppsSpringUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7984891C5322570030A027 /* PennAppsSpringUITests.swift */; };
 		20313132ADC4CF67279437BC /* Pods_PennAppsSpring.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADDA828F45ADCE6FDD275CE4 /* Pods_PennAppsSpring.framework */; };
+		864445571C54865B00FA3D73 /* BarChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864445561C54865B00FA3D73 /* BarChartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		1D7984851C5322570030A027 /* PennAppsSpringUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PennAppsSpringUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D7984891C5322570030A027 /* PennAppsSpringUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PennAppsSpringUITests.swift; sourceTree = "<group>"; };
 		1D79848B1C5322570030A027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		864445561C54865B00FA3D73 /* BarChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChartViewController.swift; sourceTree = "<group>"; };
 		9A200D4CE1118BE92EAF9D49 /* Pods-PennAppsSpring.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PennAppsSpring.release.xcconfig"; path = "Pods/Target Support Files/Pods-PennAppsSpring/Pods-PennAppsSpring.release.xcconfig"; sourceTree = "<group>"; };
 		ADDA828F45ADCE6FDD275CE4 /* Pods_PennAppsSpring.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PennAppsSpring.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C312F82B3802E83DCFA8175A /* Pods-PennAppsSpring.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PennAppsSpring.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PennAppsSpring/Pods-PennAppsSpring.debug.xcconfig"; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				1D7984721C5322570030A027 /* LaunchScreen.storyboard */,
 				1D7984751C5322570030A027 /* Info.plist */,
 				1D79846D1C5322560030A027 /* PennAppsSpring.xcdatamodeld */,
+				864445561C54865B00FA3D73 /* BarChartViewController.swift */,
 			);
 			path = PennAppsSpring;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D7984691C5322560030A027 /* ViewController.swift in Sources */,
+				864445571C54865B00FA3D73 /* BarChartViewController.swift in Sources */,
 				1D7984671C5322560030A027 /* AppDelegate.swift in Sources */,
 				1D79846F1C5322560030A027 /* PennAppsSpring.xcdatamodeld in Sources */,
 			);
