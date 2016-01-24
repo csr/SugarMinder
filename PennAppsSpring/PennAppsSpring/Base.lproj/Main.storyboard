@@ -271,6 +271,80 @@
                                     </mask>
                                 </variation>
                             </view>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HEJ-yF-ldL" userLabel="Feed the fishes messages">
+                                <rect key="frame" x="166" y="55" width="240" height="128"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="wooden" translatesAutoresizingMaskIntoConstraints="NO" id="P3O-Zw-XE6">
+                                        <rect key="frame" x="8" y="0.0" width="240" height="128"/>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="128" id="O7b-M5-iF8"/>
+                                            <constraint firstAttribute="width" constant="240" id="WEW-9L-ljv"/>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="O7b-M5-iF8"/>
+                                                <exclude reference="WEW-9L-ljv"/>
+                                            </mask>
+                                        </variation>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Feed the fishes!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6j1-RW-toQ">
+                                        <rect key="frame" x="0.0" y="31" width="171" height="29"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="by taking a reading of your blood." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vh8-dT-Fk3">
+                                        <rect key="frame" x="-10" y="65" width="275" height="55"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="face" translatesAutoresizingMaskIntoConstraints="NO" id="QqB-F3-xaT">
+                                        <rect key="frame" x="-10" y="48" width="50" height="50"/>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="iM8-7W-vzz"/>
+                                            <constraint firstAttribute="width" constant="50" id="k8H-EK-Gpu"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="P3O-Zw-XE6" secondAttribute="bottom" id="7Zq-hK-vlj"/>
+                                    <constraint firstItem="P3O-Zw-XE6" firstAttribute="top" secondItem="6j1-RW-toQ" secondAttribute="bottom" constant="-57" id="E4A-fq-JQf"/>
+                                    <constraint firstAttribute="trailing" secondItem="P3O-Zw-XE6" secondAttribute="trailing" id="ERO-xj-R6P"/>
+                                    <constraint firstItem="P3O-Zw-XE6" firstAttribute="width" secondItem="HEJ-yF-ldL" secondAttribute="width" id="IMs-jC-iA1"/>
+                                    <constraint firstItem="Vh8-dT-Fk3" firstAttribute="top" secondItem="QqB-F3-xaT" secondAttribute="bottom" constant="-130" id="M5i-sg-ZAN"/>
+                                    <constraint firstItem="P3O-Zw-XE6" firstAttribute="top" secondItem="HEJ-yF-ldL" secondAttribute="top" id="OEZ-Rj-9jJ"/>
+                                    <constraint firstItem="P3O-Zw-XE6" firstAttribute="leading" secondItem="HEJ-yF-ldL" secondAttribute="leading" id="Ymn-1c-nSI"/>
+                                    <constraint firstItem="Vh8-dT-Fk3" firstAttribute="centerX" secondItem="HEJ-yF-ldL" secondAttribute="centerX" id="ZcU-F0-u8h"/>
+                                    <constraint firstItem="Vh8-dT-Fk3" firstAttribute="top" secondItem="P3O-Zw-XE6" secondAttribute="bottom" constant="5" id="aj8-cX-itx"/>
+                                    <constraint firstItem="P3O-Zw-XE6" firstAttribute="leading" secondItem="Vh8-dT-Fk3" secondAttribute="trailing" constant="5" id="hHS-SF-e8T"/>
+                                    <constraint firstItem="P3O-Zw-XE6" firstAttribute="height" secondItem="HEJ-yF-ldL" secondAttribute="height" id="i38-82-M4n"/>
+                                    <constraint firstItem="Vh8-dT-Fk3" firstAttribute="top" secondItem="HEJ-yF-ldL" secondAttribute="top" constant="65" id="m4Y-u3-4Q0"/>
+                                    <constraint firstItem="QqB-F3-xaT" firstAttribute="centerX" secondItem="HEJ-yF-ldL" secondAttribute="centerX" id="nRe-Rh-VyX"/>
+                                    <constraint firstItem="Vh8-dT-Fk3" firstAttribute="top" secondItem="6j1-RW-toQ" secondAttribute="bottom" constant="5" id="nSy-rL-vk8"/>
+                                    <constraint firstItem="6j1-RW-toQ" firstAttribute="centerX" secondItem="P3O-Zw-XE6" secondAttribute="centerX" id="rkz-w1-oBz"/>
+                                    <constraint firstAttribute="trailing" secondItem="P3O-Zw-XE6" secondAttribute="trailing" constant="-8" id="v8V-WO-boZ"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="220"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="ERO-xj-R6P"/>
+                                        <exclude reference="hHS-SF-e8T"/>
+                                        <exclude reference="aj8-cX-itx"/>
+                                        <exclude reference="nSy-rL-vk8"/>
+                                    </mask>
+                                </variation>
+                            </view>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -284,6 +358,7 @@
                             <constraint firstItem="tpv-oM-Fs4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EI0-cB-G9g"/>
                             <constraint firstItem="g0q-lb-evC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="25" id="FfE-5g-2rz"/>
                             <constraint firstAttribute="trailingMargin" secondItem="dEY-pt-G3n" secondAttribute="trailing" constant="16" id="H48-9F-heY"/>
+                            <constraint firstItem="HEJ-yF-ldL" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="Hdy-CT-Zmg"/>
                             <constraint firstItem="Bjs-nk-P9G" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="P3N-1H-iiy"/>
                             <constraint firstAttribute="trailingMargin" secondItem="hNr-zO-cjZ" secondAttribute="trailing" constant="15" id="Pae-RL-phk"/>
                             <constraint firstItem="dEY-pt-G3n" firstAttribute="top" secondItem="hNr-zO-cjZ" secondAttribute="bottom" constant="87" id="PdQ-o6-HHu"/>
@@ -296,6 +371,7 @@
                             <constraint firstItem="Bjs-nk-P9G" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="mco-gh-m7d"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Bjs-nk-P9G" secondAttribute="bottom" id="n06-Y3-ysn"/>
                             <constraint firstItem="jdl-1g-9tb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="n2Z-xW-AyZ"/>
+                            <constraint firstItem="HEJ-yF-ldL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oot-LT-g1y"/>
                             <constraint firstItem="9WW-oz-1N5" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="70" id="ow3-PL-kKb"/>
                             <constraint firstItem="Bjs-nk-P9G" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="t8k-Ef-EKn"/>
                             <constraint firstItem="t8v-cs-y4Z" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="100" id="tQw-Ev-QaW"/>
@@ -318,6 +394,7 @@
                         <outlet property="labelCoins" destination="g0q-lb-evC" id="ZbV-nI-Tpj"/>
                         <outlet property="labelNumberOfFishesSelected" destination="DOq-Jm-6Os" id="dLC-Nj-gMK"/>
                         <outlet property="stepperFishes" destination="ONL-oK-Gi9" id="Teo-4B-TcR"/>
+                        <outlet property="viewFeedme" destination="HEJ-yF-ldL" id="Cpr-sy-ELq"/>
                         <outlet property="viewSettings" destination="tpv-oM-Fs4" id="84Q-BP-KSh"/>
                         <outlet property="viewStore" destination="uxQ-q7-YsP" id="KUK-eW-Smp"/>
                     </connections>
@@ -335,6 +412,7 @@
     <resources>
         <image name="backgroundIsland" width="1024" height="768"/>
         <image name="cancel" width="75" height="75"/>
+        <image name="face" width="80" height="80"/>
         <image name="gear" width="45" height="48"/>
         <image name="heart" width="30" height="26"/>
         <image name="info" width="90" height="90"/>

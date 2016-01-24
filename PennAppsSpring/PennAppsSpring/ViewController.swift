@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var backgroundImage: UIImageView!
     @IBOutlet weak var labelCoins: UILabel!
     @IBOutlet weak var viewStore: UIView!
+    @IBOutlet weak var viewFeedme: UIView!
     @IBOutlet weak var stepperFishes: UIStepper!
         let screenSize: CGRect = UIScreen.mainScreen().bounds
     var coins = 0
@@ -27,6 +28,7 @@ class ViewController: UIViewController {
         
         viewStore.hidden = true
         viewSettings.hidden = true
+        viewFeedme.hidden = true
         let userDefaults = NSUserDefaults.standardUserDefaults()
         if let myCoins = userDefaults.valueForKey("coins") {
             coins = Int(myCoins as! NSNumber)
@@ -136,6 +138,8 @@ class ViewController: UIViewController {
     
     @IBAction func pressOnTestOnSugarLevels(sender: AnyObject) {
         fishName = "fishInsulinHungry"
+        viewFeedme.hidden = false
+        viewSettings.hidden = true
         animateFish()
     }
     
