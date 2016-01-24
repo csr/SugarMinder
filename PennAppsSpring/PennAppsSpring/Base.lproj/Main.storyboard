@@ -70,7 +70,7 @@
                                 </variation>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="68567" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g0q-lb-evC">
-                                <rect key="frame" x="25" y="40.5" width="97" height="38.5"/>
+                                <rect key="frame" x="25" y="40" width="97" height="38.5"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="33"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -84,31 +84,6 @@
                                     <constraint firstAttribute="width" constant="50" id="V1S-eo-ycy"/>
                                 </constraints>
                             </imageView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uxQ-q7-YsP" userLabel="Store menu">
-                                <rect key="frame" x="145" y="50" width="310" height="500"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZOI-Gr-2La">
-                                        <rect key="frame" x="252" y="24" width="15" height="22"/>
-                                        <animations/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="22" id="aa5-e2-PZh"/>
-                                            <constraint firstAttribute="width" constant="15" id="iwI-s8-6vl"/>
-                                        </constraints>
-                                        <state key="normal" image="cancel"/>
-                                    </button>
-                                </subviews>
-                                <animations/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="500" id="7f2-hH-Ci5"/>
-                                    <constraint firstAttribute="width" constant="310" id="KKF-hh-UUo"/>
-                                </constraints>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="10"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </view>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9WW-oz-1N5">
                                 <rect key="frame" x="454" y="1" width="144" height="90"/>
                                 <animations/>
@@ -140,6 +115,65 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uxQ-q7-YsP" userLabel="Store menu">
+                                <rect key="frame" x="145" y="50" width="310" height="500"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZOI-Gr-2La">
+                                        <rect key="frame" x="246" y="24" width="30" height="30"/>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="aa5-e2-PZh"/>
+                                            <constraint firstAttribute="width" constant="30" id="iwI-s8-6vl"/>
+                                        </constraints>
+                                        <state key="normal" image="cancel"/>
+                                        <connections>
+                                            <action selector="pressOnCancel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dqf-U6-Q4t"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DOq-Jm-6Os">
+                                        <rect key="frame" x="151" y="120" width="42" height="21"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="caD-hO-Luv">
+                                        <rect key="frame" x="123" y="434" width="64" height="30"/>
+                                        <animations/>
+                                        <state key="normal" title="Purchase"/>
+                                    </button>
+                                    <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="ONL-oK-Gi9">
+                                        <rect key="frame" x="29" y="116" width="94" height="29"/>
+                                        <animations/>
+                                        <connections>
+                                            <action selector="fishesNumberChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="tiQ-7G-WWW"/>
+                                        </connections>
+                                    </stepper>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="500" id="7f2-hH-Ci5"/>
+                                    <constraint firstItem="ONL-oK-Gi9" firstAttribute="leading" secondItem="uxQ-q7-YsP" secondAttribute="leading" constant="29" id="CPE-2Y-ptT"/>
+                                    <constraint firstItem="ONL-oK-Gi9" firstAttribute="leading" secondItem="uxQ-q7-YsP" secondAttribute="leading" constant="25" id="JSD-Xb-gNs"/>
+                                    <constraint firstAttribute="width" constant="310" id="KKF-hh-UUo"/>
+                                    <constraint firstItem="DOq-Jm-6Os" firstAttribute="top" secondItem="uxQ-q7-YsP" secondAttribute="top" constant="120" id="Ndg-mz-jhj"/>
+                                    <constraint firstItem="DOq-Jm-6Os" firstAttribute="leading" secondItem="ONL-oK-Gi9" secondAttribute="trailing" constant="16" id="SHf-HE-PxL"/>
+                                    <constraint firstItem="ZOI-Gr-2La" firstAttribute="top" secondItem="uxQ-q7-YsP" secondAttribute="top" constant="24" id="oEI-wR-Wb8"/>
+                                    <constraint firstItem="ONL-oK-Gi9" firstAttribute="top" secondItem="uxQ-q7-YsP" secondAttribute="top" constant="116" id="snh-uw-8N1"/>
+                                    <constraint firstAttribute="trailing" secondItem="ZOI-Gr-2La" secondAttribute="trailing" constant="34" id="svr-7i-Czn"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="JSD-Xb-gNs"/>
+                                    </mask>
+                                </variation>
+                            </view>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -198,7 +232,7 @@
     </scenes>
     <resources>
         <image name="backgroundIsland" width="1024" height="768"/>
-        <image name="cancel" width="15" height="15"/>
+        <image name="cancel" width="75" height="75"/>
         <image name="gear" width="45" height="48"/>
         <image name="heart" width="30" height="26"/>
         <image name="info" width="90" height="90"/>

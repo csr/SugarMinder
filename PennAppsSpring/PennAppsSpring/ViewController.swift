@@ -14,10 +14,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var labelCoins: UILabel!
     @IBOutlet weak var viewStore: UIView!
     
-    
     let screenSize: CGRect = UIScreen.mainScreen().bounds
     var coins = 0
+    var numberOfFishes = 1
     
+    @IBOutlet weak var labelNumberOfFishesSelected: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -96,6 +97,14 @@ class ViewController: UIViewController {
         // add the animation
         bubble1.layer.addAnimation(anim, forKey: "animate position along path")
         }
+    }
+    
+    @IBAction func fishesNumberChanged(sender: AnyObject) {
+        var currentValue = Int(sender.value).description
+    }
+    
+    @IBAction func pressOnCancel(sender: AnyObject) {
+        viewStore.hidden = true
     }
 }
 
