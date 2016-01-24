@@ -100,7 +100,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func fishesNumberChanged(sender: AnyObject) {
-        var currentValue = Int(sender.value).description
+        //var currentValue = Int(sender.value).description
     }
     
     @IBAction func pressOnCancel(sender: AnyObject) {
