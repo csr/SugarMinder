@@ -16,7 +16,9 @@ class ViewController: UIViewController {
     
     let screenSize: CGRect = UIScreen.mainScreen().bounds
     var coins = 0
+    var numberOfFishes = 1
     
+    @IBOutlet weak var labelNumberOfFishesSelected: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -40,6 +42,9 @@ class ViewController: UIViewController {
         let userDefaults = NSUserDefaults.standardUserDefaults()
         userDefaults.setValue(coins, forKey: "coins")
         userDefaults.synchronize()
+    }
+    @IBAction func showStoreMenu(sender: AnyObject) {
+        viewStore.hidden = false
     }
     
     override func preferredStatusBarStyle() -> UIStatusBarStyle {
@@ -92,6 +97,14 @@ class ViewController: UIViewController {
         // add the animation
         bubble1.layer.addAnimation(anim, forKey: "animate position along path")
         }
+    }
+    
+    @IBAction func fishesNumberChanged(sender: AnyObject) {
+        var currentValue = Int(sender.value).description
+    }
+    
+    @IBAction func pressOnCancel(sender: AnyObject) {
+        viewStore.hidden = true
     }
 }
 
