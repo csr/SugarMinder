@@ -16,8 +16,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var viewFeedme: UIView!
     @IBOutlet weak var stepperFishes: UIStepper!
         let screenSize: CGRect = UIScreen.mainScreen().bounds
-    var coins = 0
-    var numberOfFishes = 1
+    var coins = 9000
+    var numberOfFishes = 5
     var fishName = "fishInsulin"
     
     @IBOutlet weak var viewSettings: UIView!

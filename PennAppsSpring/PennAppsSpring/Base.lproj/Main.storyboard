@@ -196,8 +196,8 @@
                                 </userDefinedRuntimeAttributes>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="D5o-ah-EsX"/>
                                         <exclude reference="JSD-Xb-gNs"/>
+                                        <exclude reference="D5o-ah-EsX"/>
                                     </mask>
                                 </variation>
                             </view>
