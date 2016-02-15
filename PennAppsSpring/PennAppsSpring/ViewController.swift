@@ -59,7 +59,7 @@ class ViewController: UIViewController {
     }
     
     func animateFish() {
-        for i in 1...numberOfFishes {
+        for _ in 1...numberOfFishes {
             let fish = UIImageView(image: UIImage(named: fishName))
             let randomWidth = CGFloat(arc4random_uniform(100))
             let randomXOffset = CGFloat(arc4random_uniform(200))
