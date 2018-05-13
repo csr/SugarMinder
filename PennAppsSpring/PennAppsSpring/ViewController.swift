@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var viewStore: UIView!
     @IBOutlet weak var viewFeedme: UIView!
     @IBOutlet weak var stepperFishes: UIStepper!
-        let screenSize: CGRect = UIScreen.mainScreen().bounds
+    let screenSize: CGRect = UIScreen.main.bounds
     var coins = 9000
     var numberOfFishes = 5
     var fishName = "fishInsulin"
@@ -26,11 +26,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        viewStore.hidden = true
-        viewSettings.hidden = true
-        viewFeedme.hidden = true
-        let userDefaults = NSUserDefaults.standardUserDefaults()
-        if let myCoins = userDefaults.valueForKey("coins") {
+        viewStore.isHidden = true
+        viewSettings.isHidden = true
+        viewFeedme.isHidden = true
+        let userDefaults = UserDefaults.standard
+        if let myCoins = userDefaults.value(forKey: "coins") {
             coins = Int(myCoins as! NSNumber)
         }
         labelCoins.text = String(coins)
@@ -45,17 +45,17 @@ class ViewController: UIViewController {
     @IBAction func imageIsPressed(sender: AnyObject) {
         coins += 10
         labelCoins.text = String(coins)
-        let userDefaults = NSUserDefaults.standardUserDefaults()
+        let userDefaults = UserDefaults.standard
         userDefaults.setValue(coins, forKey: "coins")
         userDefaults.synchronize()
     }
     @IBAction func showStoreMenu(sender: AnyObject) {
-        viewStore.hidden = false
+        viewStore.isHidden = false
         labelNumberOfFishesSelected.text = "Add a fish to your aquarium."
     }
     
-    override func preferredStatusBarStyle() -> UIStatusBarStyle {
-        return UIStatusBarStyle.LightContent
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
     }
     
     func animateFish() {
@@ -74,12 +74,12 @@ class ViewController: UIViewController {
             view.addSubview(fish)
             
             let path = UIBezierPath()
-            path.moveToPoint(CGPoint(x: view.bounds.width + 50 + randomXOffset, y: view.bounds.size.height - 100 - randomYOffset))
-            path.addCurveToPoint(CGPoint(x: -50, y: view.bounds.size.height-100), controlPoint1: CGPoint(x: view.bounds.width + 50, y: view.bounds.size.height - 300), controlPoint2: CGPoint(x: view.bounds.size.width/2+randomYOffset, y: view.bounds.size.height - 100))
+            path.move(to: CGPoint(x: view.bounds.width + 50 + randomXOffset, y: view.bounds.size.height - 100 - randomYOffset))
+            path.addCurve(to: CGPoint(x: -50, y: view.bounds.size.height-100), controlPoint1: CGPoint(x: view.bounds.width + 50, y: view.bounds.size.height - 300), controlPoint2: CGPoint(x: view.bounds.size.width/2+randomYOffset, y: view.bounds.size.height - 100))
             
             // create the animation
             let anim = CAKeyframeAnimation(keyPath: "position")
-            anim.path = path.CGPath
+            anim.path = path.cgPath
             anim.rotationMode = kCAAnimationRotateAutoReverse
             anim.repeatCount = Float.infinity
             if fishName == "fishInsulin" {
@@ -88,7 +88,7 @@ class ViewController: UIViewController {
                 anim.duration = 8
             }
             // add the animation
-            fish.layer.addAnimation(anim, forKey: "animate position along path")
+            fish.layer.add(anim, forKey: "animate position along path")
         }
     }
     
@@ -106,17 +106,17 @@ class ViewController: UIViewController {
             // will appear at a different y-position
             
             let path = UIBezierPath()
-            path.moveToPoint(CGPoint(x: view.bounds.size.width/3-randomXOffset, y: view.bounds.size.height - 100))
-            path.addCurveToPoint(CGPoint(x: view.bounds.size.width/3+50-randomXOffset, y: view.bounds.size.height - randomYOffset), controlPoint1: CGPoint(x: 136-randomXOffset, y: view.bounds.size.height - randomYOffset), controlPoint2: CGPoint(x: 136-randomXOffset + randomYOffset, y: view.bounds.size.height - randomYOffset - 100 - randomXOffset))
+            path.move(to: CGPoint(x: view.bounds.size.width/3-randomXOffset, y: view.bounds.size.height - 100))
+            path.addCurve(to: CGPoint(x: view.bounds.size.width/3+50-randomXOffset, y: view.bounds.size.height - randomYOffset), controlPoint1: CGPoint(x: 136-randomXOffset, y: view.bounds.size.height - randomYOffset), controlPoint2: CGPoint(x: 136-randomXOffset + randomYOffset, y: view.bounds.size.height - randomYOffset - 100 - randomXOffset))
             
             // create the animation
             let anim = CAKeyframeAnimation(keyPath: "position")
-            anim.path = path.CGPath
+            anim.path = path.cgPath
             anim.rotationMode = kCAAnimationRotateAuto
             anim.repeatCount = Float.infinity
             anim.duration = 30
             // add the animation
-            bubble1.layer.addAnimation(anim, forKey: "animate position along path")
+            bubble1.layer.add(anim, forKey: "animate position along path")
         }
     }
     
@@ -138,18 +138,18 @@ class ViewController: UIViewController {
     
     @IBAction func pressOnTestOnSugarLevels(sender: AnyObject) {
         fishName = "fishInsulinHungry"
-        viewFeedme.hidden = false
-        viewSettings.hidden = true
+        viewFeedme.isHidden = false
+        viewSettings.isHidden = true
         animateFish()
     }
     
     @IBAction func pressOnSettings(sender: AnyObject) {
-        viewSettings.hidden = false
+        viewSettings.isHidden = false
     }
     
     @IBAction func pressOnCancel(sender: AnyObject) {
-        viewStore.hidden = true
-        viewSettings.hidden = true
+        viewStore.isHidden = true
+        viewSettings.isHidden = true
     }
 }
 
