@@ -38,10 +38,6 @@ class ViewController: UIViewController {
         animateFish()
     }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-    }
-    
     @IBAction func imageIsPressed(sender: AnyObject) {
         coins += 10
         labelCoins.text = String(coins)
