@@ -15,10 +15,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var viewStore: UIView!
     @IBOutlet weak var viewFeedme: UIView!
     @IBOutlet weak var stepperFishes: UIStepper!
-    let screenSize: CGRect = UIScreen.main.bounds
-    var coins = 9000
-    var numberOfFishes = 5
-    var fishName = "fishInsulin"
+    @objc let screenSize: CGRect = UIScreen.main.bounds
+    @objc var coins = 9000
+    @objc var numberOfFishes = 5
+    @objc var fishName = "fishInsulin"
     
     @IBOutlet weak var viewSettings: UIView!
     
@@ -31,7 +31,7 @@ class ViewController: UIViewController {
         viewFeedme.isHidden = true
         let userDefaults = UserDefaults.standard
         if let myCoins = userDefaults.value(forKey: "coins") {
-            coins = Int(myCoins as! NSNumber)
+            coins = Int(truncating: myCoins as! NSNumber)
         }
         labelCoins.text = String(coins)
         animateWaterBubbles()
@@ -58,7 +58,7 @@ class ViewController: UIViewController {
         return .lightContent
     }
     
-    func animateFish() {
+    @objc func animateFish() {
         for _ in 1...numberOfFishes {
             let fish = UIImageView(image: UIImage(named: fishName))
             let randomWidth = CGFloat(arc4random_uniform(100))
@@ -92,7 +92,7 @@ class ViewController: UIViewController {
         }
     }
     
-    func animateWaterBubbles() {
+    @objc func animateWaterBubbles() {
         for _ in 0...50 {
             let bubble1 = UIImageView()
             bubble1.image = UIImage(named: "bubble")
@@ -120,7 +120,7 @@ class ViewController: UIViewController {
         }
     }
     
-    func setUpStepper() {
+    @objc func setUpStepper() {
         stepperFishes.minimumValue = 1
         stepperFishes.maximumValue = 10
     }
